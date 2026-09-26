@@ -1,0 +1,19 @@
+Generalstab der Armeen
+Büro des Generalstab - Chefs
+
+Beförderung: {bld}{rank}{txt}
+
+
+Durch seinen besonderen Einsatz sowie seine vor Ort erreichten guten Ergebnisse, hat {bld}{name}{txt} ein vorbildliches Wesen und jene natürliche Fähigkeit zur Führung bewiesen, die ihm den Respekt seiner Truppen eingebracht haben. Diese guten Eigenschaften sind anerkannt worden von der Oberen Armeeführung {align}, auf deren Empfehlung der Chef des Generalstabs nun der Beförderung zum {bld}{rank}{txt} zugestimmt hat.
+
+
+	Für den Chef des Generalstabs
+	{bld}Der Generalsekretär
+
+			den {date}
+
+					{signature2}
+
+						{stamp}
+		{galon}
+{}

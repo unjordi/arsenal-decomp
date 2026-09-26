@@ -1,0 +1,30 @@
+%X290%Y275CRUISER%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+WEAPONRY :
+BOW TURRELS%=85AFT TURREL%=90
+6IN GUN%=85ANTI-AIR%=90
+Damage :%<70 %W09%D%.%W04%D%>99
+Range :%<70 %W09%R%.%W04%R%>99
+Reload :%<70 %W09%H%.%W04%H%>99
+
+COMMENTS :
+Strong fire power and anti-aircraft
+defense. This an all purpose attack
+vessel. But no anti-submarine weapon.
+
+TECHNOLOGY REQUIRED :
+%M%>5
+
+
+%>35%N

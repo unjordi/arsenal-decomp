@@ -1,0 +1,25 @@
+%X045%Y275PORTE-AVIONS
+%X330%Y040COUT DE PRODUCTION :
+Cout :%<75 %G
+Fuel :%<75 %F
+M‚tal :%<75 %I
+D‚lai :%<75 %T
+
+CARACTERISTIQUES :
+Solidit‚ :%<75 %L
+Blindage :%<75 %A
+Vitesse :%<75 %S
+Autonomie :%<75 %U
+
+REMARQUES :
+Pouvant embarquer jusqu'… 8 chasseurs
+a‚ronavals, le porte-avions est le fer
+de lance de tout dispositifs naval.
+Convenablement escort‚ il garantira vos
+chances de succŠs.
+
+TECHNOLOGIE REQUISE :
+%M%>5
+
+
+%>35%N

@@ -1,0 +1,38 @@
+{size300}{red}{bold1}F.A.Q.
+
+{size200}{red}{bold1}How do I reinstall my licensed game? I don't have a backup{bold0}
+{size0}{black}Licensed game may be recovered on line from a demo game. To use the license recovery service from a demo game go 'Get the full game NOW' and fill common details except in 'retype email' box you must enter a special address like 'xxxxx@tacticalsoft.com' where 'xxxxx' is your client number. At next step you will have to enter your login and password. Detailed instructions for license recovery are included in your license email.
+
+{size200}{red}{bold1}I lost my login and password...{bold0}
+{size0}{black}Write at help@tacticalsoft.com to request your login and password, they will be emailed back to you. If your email address is different from the email that was registered we'll need you provide extra information in order to identify your account. 
+
+{size200}{red}{bold1}Do I need on line passport to recover my license from a demo game?{bold0}
+{size0}{black}YES, on line license recovery from demo game is a service that comes with a valid on line passport. To reinstall game freely without a valid on line passport it is your responsibility to make a game backup once you have purchased the game license.
+
+{size200}{red}{bold1}Do I need on line passport to play licensed game?{bold0}
+{size0}{black}NO, you can play the licensed game including campaigns, game generator and local network game without valid on line passport.
+
+{size200}{red}{bold1}I have lost my game, do I need to pay again?{bold0}
+{size0}{black}It depends : if you have a game backup you can reinstall your licensed game freely from your game backup. If you don't have a backup but a valid on line passport then you can use the on line license recovery service from demo game. If you have no backup and your passport is expired, then you can use the license recovery service from demo game but you will need to buy at least one month on line passport to allow the license recovery.
+
+{size200}{red}{bold1}I have lost my player, can I recover it?{bold0}
+{size0}{black}It depends, if you have used the 'Backup my player' from client service then you can use the 'Restore my player'. If you have a game backup you can also restore the '*.apf' player files from backup to your game folder. If no backup has been made then your player is lost for ever.
+
+{size200}{red}{bold1}Does the game works under Windows Vista?{bold0}
+{size0}{black}YES but it is not 100% compatible with Windows Vista. You will need to copy the file \windows\system32\dplay.dll from Windows XP into the game folder under Windows Vista else the game won't start. Once the dll file has been included most of the game works except for the local network game that is not compatible with Vista.
+
+{size200}{red}{bold1}What is the highest player rank?{bold0}
+{size0}{black}For any question regarding ranks and high scores, please check 'Manual' from web site www.tacticalsoft.com in section 'Game Rules' all ranked and medals are referred.
+
+{size200}{red}{bold1}Where is the 'Questions & Answers' button gone?{bold0}
+{size0}{black}The 'Question & Answers' from the launcher interface has been replaced with the 'Frequently Asked Questions' since the 'Q&A' was redundant with the game chat room. Players can still chat and post messages from the game chat room through 'Player' menu then click the 'Chat room' button or use shortcut keys CTRL+ENTER to open the chat interface at any time.
+
+{size200}{red}{bold1}Where is the 'World High Score' button gone?{bold0}
+{size0}{black}You can find the new world records graphical interface within the game, from the 'Records' menu click 'World Record'.
+
+{size200}{red}{bold1}Can I install the game on my second computer?{bold0}
+{size0}{black}NO, game license does not allow that, you'll have to buy a second game license for your second computer.
+
+{size200}{red}{bold1}What are the cheat codes?{bold0}
+{size0}{black}There are no cheat codes.
+{}

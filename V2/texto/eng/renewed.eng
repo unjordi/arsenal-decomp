@@ -1,0 +1,4 @@
+{size250}{green}{bold1}PAYMENT ACCEPTED
+{size0}{offset100}{bold0}{black}
+- Your subscription has been renewed successfully until {red}{bold1}{expdate}{bold0}{black}.
+{}

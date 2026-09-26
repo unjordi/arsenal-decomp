@@ -1,0 +1,34 @@
+%X290%Y275LANCEUR TOXIQUE%<00
+%X330%Y040COUT DE PRODUCTION :
+Cout :%<75 %G%.%>40Metal :%<75 %I
+Fuel :%<75 %F%.%>40D‚lai :%<75 %T
+
+CARACTERISTIQUES :
+Solidit‚ :%<75 %L%.%>30Vitesse :%<75 %S
+Blindage :%<75 %A%.%>30Autonomie :%<75 %U
+
+ARMEMENT : OGIVE TOXIC 250Kg
+D‚gat :%<75 %D%.%>30Souffle :%<95 %B
+Port‚e :%<75 %R%.%>30Imprecis. :%<95 %C
+Rechar :%<75 %H%.%>30Rayon tox. :%<95 6
+
+REMARQUES :
+AprŠs plusieurs ann‚es d'affreuses
+exp‚riences pratiqu‚es sur des prison-
+niers de guerre, les Paranos devinrent
+les experts de la guerre chimique.
+Le premier d'entre-eux ‚tait le Docteur
+Nikloz dont le cerveau malade donna la
+formule d'un gaz tellement mortel qu'
+une seule de ses mol‚cules pouvait
+apporter une mort instantan‚e. En temps
+voulu les ing‚nieurs adaptŠrent une
+ogive sur leur missile avec l'intention
+non d‚guis‚e de l'utiliser contre les
+populations ennemies.
+
+TECHNOLOGIE REQUISE :
+%M%>5
+
+
+%>35%N

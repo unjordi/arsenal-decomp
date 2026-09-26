@@ -1,0 +1,6 @@
+{size250}{green}{bold1}ZAHLUNG AKZEPTIERT
+{size0}{offset100}{bold0}{black}
+- Pass gültig bis: {red}{size250}{bold1}{expdate}
+{size0}{black}{bold0}- Ihr Login lautet: {blueink}{size250}{bold1}{login}
+{size0}{black}{bold0}- Ihr Passwort lautet: {blueink}{size250}{bold1}{pass}
+{}

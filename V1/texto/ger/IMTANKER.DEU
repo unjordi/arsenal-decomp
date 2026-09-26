@@ -1,0 +1,19 @@
+%X045%Y275TANKSCHIFF
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN :
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+Geschwind. :%<75 %S
+Radius :%<75 %U
+
+BEMERKUNGEN :
+Entwickelt zum Transport von Rohbenzin
+zwischen F”rderplattform und Raffine-
+rie.
+Auch als Nachschubsschiff fr Marine-
+einheiten eingesetzt.%.

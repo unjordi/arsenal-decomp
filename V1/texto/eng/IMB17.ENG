@@ -1,0 +1,29 @@
+%X290%Y275BOMBER%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :%O30
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+WEAPONRY : 25 x 100LB BOMB
+%>30Damage :%<70 %D
+%>30Blow :%<70 %B
+%>30Inaccuracy :%<70 %C
+
+COMMENTS :
+Designed for long range carpet bombing,
+the bomber inflict heavy damage in the
+bombing zone. But without air defense
+its an easy prey for fighters.
+
+TECHNOLOGY REQUIRED :%O19
+%M%>5
+
+
+%>35%N

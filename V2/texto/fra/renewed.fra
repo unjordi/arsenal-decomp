@@ -1,0 +1,6 @@
+{size250}{green}{bold1}PAIEMENT ACCEPTÉ
+{size0}{offset100}{bold0}{black}
+- Passeport valide jusqu'au : {red}{size250}{bold1}{expdate}
+{size0}{black}{bold0}- Votre login est: {blueink}{size250}{bold1}{login}
+{size0}{black}{bold0}- Votre mot de passe est: {blueink}{size250}{bold1}{pass}
+{}

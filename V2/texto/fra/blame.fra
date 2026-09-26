@@ -1,0 +1,21 @@
+Comité d'Évaluation des Officiers
+Commission Disciplinaire du {date}
+
+A l'attention : {bld}{name}{txt}
+Sanction : {bld}BLAME{txt}
+
+Le C.E.O. est affligé par le bilan de vos opérations à {city} et désapprouve unanimement votre conduite qu'elle juge indigne d'un officier {align}. En conséquence votre plus haute citation vous a été retirée. Votre dossier est transmis au Bureau du Chef d'État-Major qui décidera du maintien de votre grade et affectation.
+
+
+
+	Pour le C.E.O.
+	{bld}Le Secrétaire
+
+
+					{signature3}
+
+						{stamp}
+		{icon2}
+{}
+
+

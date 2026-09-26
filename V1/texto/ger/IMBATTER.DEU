@@ -1,0 +1,30 @@
+%X290%Y275KANONGESCHUETZ%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN :
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+
+BEWAFFNUNG : 105MM-KANONE
+Schaden :%<75 %D
+Radius :%<75 %R
+Laden :%<75 %H
+
+BEMERKUNGEN :
+Dieses Geschtz tr„gt die
+schlagkr„ftige, auf ein Zielrohr
+aufgepflanzte 105-mm-Kanone.
+Einmal in der Verteidigungslinie
+installiert ist es nur noch sehr
+schwer zu berwinden.
+Ungeschtzt gegen Luftangriffe.
+
+TECHNOLOGIEN :
+%M%>5
+
+
+%>35%N

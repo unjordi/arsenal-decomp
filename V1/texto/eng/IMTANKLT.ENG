@@ -1,0 +1,28 @@
+%X290%Y275LIGHT TANK%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+WEAPONRY : 2IN GUN TURREL
+Damage :%<70 %D
+Range :%<70 %R
+Reload :%<70 %H
+
+COMMENTS :
+Quick and cheap to produce, good speed,
+but quite weak and poor fire power.
+Good only for "blitz krieg".
+
+TECHNOLOGY REQUIRED :
+%M%>5
+
+
+%>35%N

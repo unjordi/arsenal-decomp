@@ -1,0 +1,20 @@
+Generalstab der Armeen
+Büro des Generalstab-Chefs
+
+Degradierung : {bld}{rank}{txt}
+
+
+Nach Kenntnisnahme des Berichts über die Vorfälle von {city} unter Führung des Offziers {bld}{name}{txt} und der negativen Beurteilung folgend, die das Komitee für Innere Führung abgeben hat, spricht der Chef des Generalstabs dem Offizier die volle Verantwortlichkeit zu und befiehlt seine Degradierung für schwere Dienstvergehen, voller Bedauern darüber, dass eine derartige Inkompetenz im Herzen der Armee {align} zu finden ist .
+
+	Für den Chef des Generalstabs
+	{bld}Der Generalsekretär
+
+			den {date}
+
+					{signature4}
+
+						{stamp}
+		{icon1}
+{}
+
+

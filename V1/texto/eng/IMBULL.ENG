@@ -1,0 +1,24 @@
+%X290%Y275BULLDOZER%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+COMMENTS :
+This is the unique contruction unit.
+It permits to level down an area before
+a building can be erected.
+This is also the only device able to
+capture an ennemy head quarter and
+thus to acquire ennemy technology.
+Keep in mind : bulldozer is a key unit,
+allways keep a factory operationnal
+with sufficient resources to produce at
+least one bulldozer.%.

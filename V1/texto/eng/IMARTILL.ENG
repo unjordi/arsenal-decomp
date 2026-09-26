@@ -1,0 +1,32 @@
+%X290%Y275ARTILLERY%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+WEAPONRY : 4IN GUN
+Damage :%<70 %D
+Range :%<70 %R
+Reload :%<70 %H
+
+COMMENTS :
+The mobile artillery unit uses the
+4in gun. This is a long range gun quite
+accurate that inflicts severe damages.
+Artillery is very efficient on buildings
+and bunkers, but its weakness and slow
+reactions made it very vulnerable if it
+is not escorted.
+
+TECHNOLOGY REQUIRED :
+%M%>5
+
+
+%>35%N

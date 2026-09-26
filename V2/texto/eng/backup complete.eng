@@ -1,0 +1,10 @@
+{size200}{green}{bold1}BACKUP COMPLETE
+{bold0}{size0}{black}
+This backup is only on purpose of restoring the game in case you lose your files. The next backup will be requested in 30 days.
+
+- To restore a CDR backup you just need to copy back the game directory onto your hard disk.
+
+- To restore a backup on diskettes you need to execute the programme arsenal2_restore which is located on the first diskette.
+
+{red}{bold1}IMPORTANT:{black}{bold0} the file ARSENAL2.ADF is the most important since it contains the license and all add-ons acquired to date of backup. {red}{bold1}Do not overwrite the file ARSENAL2.ADF on your hard disk with an older one{black}{bold0}.
+{}

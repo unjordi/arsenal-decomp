@@ -1,0 +1,10 @@
+{size200}{green}{bold1}SAUVEGARDE TERMINÉE
+{bold0}{size0}{black}
+Cette sauvegarde vous permet uniquement de restaurer le jeu si vous perdez les fichiers. La prochaine sauvegarde sera dans requise dans 30 jours.
+
+- Pour restaurer une sauvegarde sur CDR vous devez simplement recopier le répertoire sur votre disque dur.
+
+- Pour restaurer une sauvegarde sur disquettes vous devez exécuter le programme arsenal2_restore qui se trouve sur la première disquette.
+
+{red}{bold1}IMPORTANT:{black}{bold0} le fichier ARSENAL2.ADF est le plus important car il contient la licence et les add-ons acquis au moment de la sauvegarde. {red}{bold1}Ne pas écraser le fichier ARSENAL2.ADF sur votre disque dur avec un autre plus ancien{black}{bold0}.
+{}

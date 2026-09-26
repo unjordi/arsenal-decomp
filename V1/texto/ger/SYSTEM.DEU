@@ -1,0 +1,305 @@
+Arsenal CDrom ins Leseger„t einfhren$
+OK$
+Ja$
+Nein$
+Abbrechen$
+Drcken Sie die Eingabetaste$
+Mausclick oder Tastatur$
+Neuer Feldzug$
+Sie sind nicht Hauptmann, gehen Sie ins Lernprogramm$
+Kein Speicher mehr !$
+Wollen Sie dieses Spiel neu beginnen ?$
+Machen Sie zuerst drei Lernprogramme$
+Bitte Code eingeben und dann$
+Code genehmigt$
+Erstellung der Karte$
+Am Anfang war alles leer$
+Das Land trat aus dem Wasser$
+Flsse str”mten durch das Land$
+Die Meere verbanden sich$
+Der Planet war voller Rohstoffe$
+Die Berge erhoben sich$
+W„lder und Forste breiteten sich aus$
+Bauunternehmer kauften die Str„nde$
+Sie bauten riesiege St„dte$
+ Bergwerke gefunden, Spielerzahl vermindern !$
+ Bohrinseln gefunden, Spielerzahl vermindern !$
+ St„dte gefunden, Spielerzahl vermindern !$
+Das ganze Spiel kostet nur 150FF !$
+<Frei>$
+Frei$
+<Neues Spiel>$
+Neues Spiel$
+Load$
+Save$
+Neues Lernspiel$
+Neues Profispiel$
+Spiel laden$
+Lexikon$
+Ehrenliste$
+Quit$
+Zum Spiel$
+Wiederanfangen$
+Spielgeschwindigkeit$
+Mausgeschwindigkeit$
+Scrolingspeed$
+Arktisch$
+Gem„ssigt$
+Wstenartig$
+Karte Nr$
+Fahrzeug$
+Flotte$
+Flugzeug$
+Abwehr$
+kassierte Steuern$
+geschmolzenes Metall$
+Treibstoff raffiniert$
+produzierte Einheiten$
+errichtete Geb„ude$
+zerst”rte Einheiten$
+zerst”rte Geb„ude$
+Basis erobert$
+Einheiten aufgerieben$
+Ruinierte Geb„ude$
+get”tete Zivilisten$
+geplnderte Basen$
+gezndete Atombomben$
+geworfene Giftraketen$
+abgefeuerte V1$
+Geopferte Kamikaze$
+Soldat$
+Gefreiter$
+Unteroffizier$
+Oberleutnant$
+Hauptmann$
+Major$
+Oberst$
+General$
+General$
+General$
+General$
+General$
+Monster$
+Diktator$
+Terrorist$
+Pate$
+Pfadfinder$
+Sherrif$
+Gouverneur$
+Commander$
+Held$
+ZU LEICHT$
+LEICHT$
+NICHT LEICHT$
+SCHWER$
+ZU SCHWER$
+SIEGER$
+BESIEGT$
+DISPO$
+MIT$
+LIZENZ$
+Forschung beendet$rchcomde
+Geb„ude vollendet$buicomde
+Bauarbeiten abgebrochen$buicande
+Produktion abgebrochen$producde
+Forschung unterbrochen$rchcande
+Einheit verloren$unitlode
+Geb„ude zerst”rt$buildede
+Unser HQ wurde erorbert$hqtakede
+Feindliches Hq erorbert$hqconqde
+Neue Technologien gewonnen$newtecde
+Feindl. Flugzeug im Anflug$siren
+Feind in Sicht$enemyde
+Feindl. Schiff in Sicht$navyatde
+Feindl. Flugzeug in Sicht$airatde
+U-Boot in Sicht$subatde
+Unsre Stadt wird attackiert$ourcitde
+Hochofen wird ben”tigt$furnacde
+Raffinerie wird ben”tigt$refinede
+Wohngeb„ude wird ben”tigt$housede
+Kippwagen wird ben”tigt$trucrqde
+Tankwagen ben”tigt$gastrqde
+Keine Bulldozer mehr !$achtung
+Metalle ungengend$insmetde
+Treibstoff ungengend$insfuede
+Zivil ungengend$
+Finanzen ungengend$insfinde
+Zerst”rung !$
+Katapultstart !$
+Reparieren lassen !$
+Bulldozer$
+Kippwagen$
+Tankwagen$
+Jeep$
+Artillerie$
+Leichtpanzer$
+Mittelpanzer$
+Schwerpanzer$
+Giftrakete$
+Tankschiff$
+U-Boot$
+Zerst”rer$
+Kreuzer$
+Schlachtschiff$
+Transportschiff$
+Flugzeugtr„ger$
+Jagdflieger$
+Marinej„ger$
+Jagdbomber$
+Bomber$
+Atombomber$
+Kamikaze$
+Geschtz$
+Luftabwehr$
+Raketengeschtz$
+V1$
+Bulldozer bereit$bullde
+Kippwagen bereit$truckde
+Tankwagen bereit$gastrude
+Jeep bereit$jeepde
+Artillerie bereit$artillde
+Leichtpanzer einsatzbereit$tankltde
+Mittelpanzer einsatzbereit$tankmdde
+Schwerpanzer einsatzbereit$tankhvde
+Giftraketen startklar$toxicde
+Tankschiff bereit$tankerde
+U-boot l„uft aus$subde
+Zerst”rer l„uft aus$destrode
+Kreuzer ausgerstet$cruisede
+Schlachtschiff ausgerstet$battlede
+Transportschiff bereit$transpde
+Flugzeugtr„ger l„uft aus$carriede
+Jagdflieger bereit$fightede
+Marinej„ger bereit$navyfide
+Jagdbomber bereit$tacticde
+Bomber bereit$bomberde
+Atombomber bereit$atomicde
+Kamikaze bereit$kamikade
+Geschtz bereit$gunbatde
+Luftabwehr bereit$airbatde
+Raketengeschtz bereit$rocketde
+V1 gerstet$v1de
+Wohngeb„ude$
+Fabrik$
+Hochofen$
+Schiffswerft$
+Flughafen$
+Raffinerie$
+Bunker$
+Radar$
+Hauptquartier$
+Landwaffen$
+Marinewaffen$
+Luftwaffen$
+Schutzwaffen$
+50mm-Kanone$
+75mm-Kanone$
+88mm-Kanone$
+105mm-Kanone$
+150mm-Kanone$
+300mm-Kanone$
+Marineflieger$
+Jagdflugzeug$
+Bomber$
+Funkabwehr$
+Radarabwehr$
+Raketenwaffen$
+V1$
+Atombombe$
+Selbstmordflugzeug$
+Giftwaffe$
+Sie sind der Sieger$victorde
+Sie sind besiegt$defeatde
+Violett besiegt$purplede
+Grau besiegt$grayde
+Grn besiegt$greende
+Blau besiegt$bluede
+Gelb besiegt$yellowde
+Braun besiegt$braunde
+Rot besiegt$redde
+Orange besiegt$orangede
+$max1gen1
+$max1gen2
+$max1mov1
+$max1mov2
+$max1gen3
+$max1gen4
+$clejgen1
+$clejgen2
+$clejmov1
+$clejmov2
+$clejgen3
+$clejgen4
+$hol1gen1
+$hol1gen2
+$hol1mov1
+$hol1mov2
+$hol1spe1
+$hol1spe2
+$raimgen1
+$raimgen2
+$raimmov1
+$raimmov2
+$raimspe1
+$raimspe2
+$ericgen1
+$ericgen2
+$ericmov1
+$ericmov2
+$ericspe1
+$ericspe2
+$stengen1
+$stengen2
+$stenmov1
+$stenmov2
+$stenspe1
+$stenspe2
+$simogen1
+$simogen2
+$simomov1
+$simomov2
+$simospe1
+$simospe2
+$chrigen1
+$chrigen2
+$chrimov1
+$chrimov2
+$chrispe1
+$chrispe2
+$stebgen1
+$stebgen2
+$stebmov1
+$stebmov2
+$stebspe1
+$stebspe2
+$clekgen1
+$clekgen2
+$clekmov1
+$clekmov2
+$clekspe1
+$clekspe2
+$ericspe3
+$max2spe1
+$ericspe3
+$lucius1
+$lucius2
+$lucius3
+$lucius4
+$lucius5
+$lucius6
+$ferdi01
+$ferdi02
+$ferdi03
+$ferdi04
+$ferdi05
+$ferdi06
+$ferdi07
+$ferdi08
+$ferdi09
+$ferdi10
+$ferdi11
+$ferdi12
+$ferdi14
+$ferdi13
+$ferdi15
+q$

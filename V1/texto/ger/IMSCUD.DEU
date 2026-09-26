@@ -1,0 +1,33 @@
+%X290%Y275GIFTPANZER%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G%.%>40Metall :%<75 %I
+Benzin :%<75 %F%.%>40Aufbau :%<75 %T
+
+BESONDERHEITEN :
+Festigkeit :%<75 %L%.%>30Geschwind. :%<75 %S
+Panzerung :%<75 %A%.%>30Radius :%<75 %U
+
+BEWAFFNUNG : GIFTSPRENGKOPF 250KG
+Schaden :%<75 %D%.%>30Giftwolke :%<95 %B
+Radius :%<75 %R%.%>30Fehlquote :%<95 %C
+Laden :%<75 %H%.%>30Giftradius :%<95 6
+
+BEMERKUNGEN :
+Nach jahrelangen schrecklichen Expe-
+rimenten an Kriegsgefangenen wurden die
+Paranos zu Experten im Giftkrieg. Unter
+ihnen war der Dr. Nikloz der erste, in
+dessen krankhaftem Hirn die Formel fr
+ein derart t”dliches Gas entstand, von
+dem schon ein einziges Molekl zum so-
+fortigen Tod fhren kann. Die Ingenieure
+stellten unverzglich einen Raketenkopf
+her, mit der unverblmten Absicht, ihn
+gegen die feindliche Bev”lkerung
+einzusetzen.
+
+TECHNOLOGIEN :
+%M%>5
+
+
+%>35%N

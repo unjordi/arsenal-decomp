@@ -1,0 +1,23 @@
+Army General Headquarters
+Chief of Staff Department
+
+Degradation: {bld}{rank}{txt}
+
+
+Having going through the report on the incident at {city} under command of the officer {bld}{name}{txt} and considering the unfavourable notice given by the O.E.C, the Chief of Staff hold the officer entirely responsible and order his degradation for serious misconduct, regretting such incompetence could occur within the {align} Army chain of command.
+
+
+
+	For and on behalf of the Chief of Staff
+	{bld}The Secretary
+
+			on {date}
+
+					{signature4}
+
+						{stamp}
+		{icon1}
+
+
+
+{}

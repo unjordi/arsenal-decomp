@@ -1,0 +1,116 @@
+Help English
+Resource stock information
+The icon indicates the type of resource, either finances, fuel or metal
+The top figures indicate the current stock value. The bottom figures indicates the stocking capability
+This bar shows your instant consumption.
+Units production panel
+The left click starts the production of this unit
+Select damaged units
+The unit is upgrading
+Close the panel
+The unit is repairing
+Destroy the building
+Production in progress
+Unit quantity to produce
+Units selection panel
+Select a single kind of unit
+Set the unit in patrol mode
+It's green when your stock is increasing, but it's red if the stock is diminishing
+Number of unit of this kind
+In this case you need to produce more resources or to reduce your consumption.
+free
+Exclude a type of unit
+The sites for resource production
+HOUSING:
+A house shelter from 2 to 20 civilians paying taxes therefore increasing your finances. It is important to protect your houses because civilian casualties will result in negative points.
+SMELTING FURNACE:
+It provides the metal production from the ore collected by trucks at the mine. More the smelting furnace is close to the mine more the production is intensive.
+REFINERY:
+For fuel production, they can be built only on coasts, tankers are required for shuttle to the nearest oil platform. It is essential to maintain high fuel stocks in order to prevent units from running out of fuel.
+Units production facilities
+FACTORY:
+For ground units production either civilian vehicles and armours. It is also the right place to repair damaged vehicles.
+AIRFIELD:
+It is used for aircraft production and also provides a tarmac for them to takeoff. Aircraft automatically go on repair when they have been damaged.
+SHIPYARD:
+To be built only on coast, it produce and repair all navy units. A powerful fleet is the key to fast conquest.
+Select units
+Open a selection zone by dragging the mouse while keeping the left button clicked.
+Cancel the selection
+Select a group from 0 to 9 directly from the keyboard
+Create a group with the CTRL key and the number of the group
+Dismiss a group with ALT key and the group number
+Use the SHIFT key to add or suppress a unit from the selected group
+Change the orientation of group formation with the CTRL key
+0 - 9
+ctrl
+alt
+shift
+Keyboard shortcuts
+Go to last message
+Game speed
+Pause
+Quit the game
+Help
+my units
+total units playing
+my buildings
+total buildings
+my territories
+my world rank
+my power
+difficulty level
+mini map ON/OFF
+640 x 480
+800 x 600
+768 x 1024
+1024 x 1280
+space
++/-
+pause
+esc
+F1
+u
+U
+b
+B
+T
+R
+P
+L
+M
+F9
+F10
+F11
+F12
+Mouse cursor meanings
+move a unit
+move a formation
+exploit a resource
+takeoff, landing
+set refuel target
+extinguish fire
+take QG with the bulldozer
+rotate a unit with CTRL
+rotate a formation with CTRL
+set resource shuttle
+board, launch units by transport
+unit go refuel
+unit go repair
+load missile on launcher
+production stopped, lacking resources
+tab
+keep focus ON/OFF
+Screen shot
+Editor commands
+RISE map level
+DIG map level
+RISE heavily
+DIG heavily
+swap current camp with camp of the chosen number
+toggle fire on selected building
+F
+Inc/dec current media 'Put Media' mode, like with the 'Media' gauge
+help end
+
+

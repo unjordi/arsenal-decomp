@@ -1,0 +1,28 @@
+%X290%Y275ROCKET BATTERY%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+
+WEAPONRY : 1IN ROCKETS LAUNCHER
+Damage :%<70 %D
+Range :%<70 %R
+Reload :%<70 %H
+
+COMMENTS :
+The rocket battery launches bursts of
+3 1in rockets. The damages inflicted by
+rockets made this defense allmost
+impassable.
+Except if danger comes from the air.
+
+TECHNOLOGY REQUIRED :
+%M%>5
+
+
+%>35%N

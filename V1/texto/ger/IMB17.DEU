@@ -1,0 +1,30 @@
+%X290%Y275BOMBER%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN : %O30
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+Geschwind. :%<75 %S
+Radius :%<75 %U
+
+BEWAFFNUNG : 25 100KG-BOMBEN
+%>30Schaden :%<70 %D
+%>30Schockwelle :%<70 %B
+%>30Fehlquote :%<70 %C
+
+BEMERKUNGEN :
+Entwickelt fr Bombardierungen bei
+grossem Aktionsfeld, kann der Bomber
+dem Zielgebiet schwere Sch„den
+beibringen. Unbegleitet jedoch eine
+leichte Beute fr feindliche Flieger.
+
+TECHNOLOGIEN :%O19
+%M%>5
+
+
+%>35%N

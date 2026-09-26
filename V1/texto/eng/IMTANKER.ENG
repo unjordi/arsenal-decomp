@@ -1,0 +1,17 @@
+%X045%Y275OIL TANKER
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+COMMENTS :
+Designed for oil supply shuttle between
+oil plateform and refinery. Also used as
+navy refuling ship.%.

@@ -1,0 +1,38 @@
+{size300}{red}{bold1}Q.F.P.
+
+{size200}{red}{bold1}Comment réinstaller ma licence? Je n'ai pas de sauvegarde {bold0}
+{size0}{black}Le jeu sous licence peut être récupéré en ligne à partir d'un jeu démo. Pour utiliser le service de récupération en ligne à partir du jeu démo cliquez 'Obtenir le jeu complet MAINTENANT' puis remplissez les champs usuels d'information (nom, pays, etc..) sauf dans le champ 'retapez courriel' dans lequel vous devez former une adresse spéciale comme 'xxxxx@tacticalsoft.com' où 'xxxxx' est votre numéro client. À l'étape suivante vous devrez entrer vos login et mot de passe. Les instructions détaillées pour la récupération de licence sont incluses dans votre courriel de licence.
+
+{size200}{red}{bold1}J'ai perdu mes login et mot de passe...{bold0}
+{size0}{black}Écrivez à help@tacticalsoft.com pour demander vos login et mots de passe qui vous seront retournés par courriel. Si votre adresse courriel a changé depuis l'achat de la licence vous devez joindre des informations permettant d'identifier votre compte client.
+
+{size200}{red}{bold1}Ai-je besoin d'un passeport en ligne pour récupérer ma licence à partir d'un jeu démo?{bold0}
+{size0}{black}OUI, la récupération de licence en ligne est un service qui vient avec le passeport en ligne. Pour réinstaller votre licence librement vous devez disposer d'une sauvegarde du jeu sous licence. Il est de votre responsabilité de faire une sauvegarde du jeu sous licence.
+
+{size200}{red}{bold1}Ai-je besoin du passeport en ligne pour jouer le jeu sous licence?{bold0}
+{size0}{black}NON, vous pouvez jouer le jeu sous licence incluant les campagnes, le générateur de jeu et le jeu en réseau local sans passeport en ligne.
+
+{size200}{red}{bold1}J'ai perdu mon jeu sous licence, dois-je repayer?{bold0}
+{size0}{black}Ça dépend : si vous disposez d'une sauvegarde vous pouvez réinstaller le jeu librement quand cela est nécessaire. Si vous n'avez pas de sauvegarde mais vous disposez d'un passeport en ligne valide vous pouvez utiliser le service de récupération en ligne. Si vous n'avez ni sauvegarde ni passeport valide alors vous pouvez utiliser le service de récupération en ligne mais vous devrez payer un passeport d'au moins 1 mois pour accéder au service de récupération.
+
+{size200}{red}{bold1}J'ai perdu mon perso, puis-je le récupérer?{bold0}
+{size0}{black}Ça dépend : si vous avez utilisé le service en ligne "Sauver mon perso" vous pourrez utiliser "Restaurer mon perso" pour récupérer le dernier perso qui fut sauvegardé. Si vous disposez d'une sauvegarde vous pouvez aussi restaurer les fichiers de perso '*.apf' de la sauvegarde vers le répertoire du jeu. Si vous n'avez fait aucune sauvegarde votre perso est perdu pour toujours.
+
+{size200}{red}{bold1}Le jeu marche-t-il sous Windows Vista?{bold0}
+{size0}{black}OUI mais pas à 100%. Vous devez copier le fichier \windows\system32\dplay.dll à partir du système Windows XP vers le répertoire du jeu sous Windows Vista sinon le jeu ne démarrera pas. Une fois le fichier dll inclus dans le répertoire du jeu tout fonctionne à l'exception du jeu en réseau local qui est incompatible avec Windows Vista.
+
+{size200}{red}{bold1}Quel-est le grade le plus élevé?{bold0}
+{size0}{black}Pour toute question concernant les grades et les scores, veuillez consulter le 'Manuel' en ligne à partir du site www.tacticalsoft.com dans la section 'Règles du Jeu' tous les grades et médailles sont référencés.
+
+{size200}{red}{bold1}Où est passé le bouton "Questions & Réponses"?{bold0}
+{size0}{black}Les 'Question & Réponses' de l'interface de lancement ont été remplacées par les QFP car cela était redondant avec le 'Clavardage' du jeu. Les joueurs peuvent toujours envoyer des messages à partir du menu 'Joueur' puis en cliquant 'Clavardage' ou en avec les touches raccourcis CTRL+ENTER pour ouvrir l'interface de 'Clavardage' à tout moment.
+
+{size200}{red}{bold1}Où est passé le bouton 'Record Mondial'?{bold0}
+{size0}{black}Vous pouvez trouver la nouvelle interface graphique des records mondiaux depuis le jeu, à partir du menu 'Records' cliquer 'Record Mondial'.
+
+{size200}{red}{bold1}Puis-je installer le jeu sous licence sur mon deuxième ordinateur?{bold0}
+{size0}{black}NON, la licence du jeu ne permet pas cela, vous devrez acheter une deuxième licence pour votre deuxième ordinateur.
+
+{size200}{red}{bold1}Quels sont les codes de triche?{bold0}
+{size0}{black}Il n'y a pas de codes de triche.
+{}

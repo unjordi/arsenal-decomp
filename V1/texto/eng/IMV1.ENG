@@ -1,0 +1,33 @@
+%X290%Y275BUZZ BOMB%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+
+WEAPONRY : 1500LB WARHEAD
+Damage :%<70 %D%.%>30Blow :%<90 %B
+Range :%<70 %R%.%>30Inaccuracy :%<90 %C
+Reload :%<70 %H
+
+COMMENTS :
+After several tries ended by failure,
+Psycho scientists definitely turned
+their back on super guns project, when
+one of their rocket specialist invented
+a new liquid fuel for rocket engines.
+His research leaded to the first long
+range rocket that could fly from a
+continent to an other. Because of the
+noise produced by the engine, they call
+it the buzz bomb.
+
+TECHNOLOGY REQUIRED :
+%M%>5
+
+
+%>35%N

@@ -1,0 +1,31 @@
+%X290%Y275DESTROYER%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+WEAPONRY :
+BOW%=85AFT%=70DEPTH%=70
+2IN GUN%=85ANTI-AIR%=70CHARGE%=70
+Damage :%<70 %W05%D%.%W04%D%>80%W26%D%>70
+Range :%<70 %W05%R%.%W04%R%>80%W26%R%>70
+Reload :%<70 %W05%H%.%W04%H%>80%W26%H%>70
+
+COMMENTS :
+Designed for anti submarine and anti
+aircraft defense ship. Essential for
+convoy and war vessels escort, but
+weak in navy attacks.
+
+TECHNOLOGY REQUIRED :
+%M%>5
+
+
+%>35%N

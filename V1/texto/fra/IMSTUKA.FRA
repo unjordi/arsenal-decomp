@@ -1,0 +1,32 @@
+%X290%Y275CHASSEUR BOMBARDIER%<00
+%X330%Y040COUT DE PRODUCTION :
+Cout :%<75 %G
+Fuel :%<75 %F
+M‚tal :%<75 %I
+D‚lai :%<75 %T
+
+CARACTERISTIQUES :%O29
+Solidit‚ :%<75 %L
+Blindage :%<75 %A
+Vitesse :%<75 %S
+Autonomie :%<75 %U
+
+ARMEMENT :
+CANON 20MM%.%>504 BOMBES 250Kg%>90
+D‚gats :%<70 %W03%D%.%>60D‚gats :%<80 %W12%D
+Port‚e :%<70 %W03%R%.%>60Souffle :%<80 %W12%B
+Rechar :%<70 %W03%H%.%>60Impr‚cis. :%<80 %W12%C
+%W12
+
+REMARQUES :
+C'est en fait un chasseur … moyen
+rayon d'action avec aptitude au
+bombardement en piqu‚.
+Bon en attaque au sol dans un moyen
+rayon d'action, mais chasseur m‚diocre.
+
+TECHNOLOGIE REQUISE :%O18
+%M%>5
+
+
+%>35%N

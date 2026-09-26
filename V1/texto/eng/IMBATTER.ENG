@@ -1,0 +1,28 @@
+%X290%Y275GUN BATTERY%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+
+WEAPONRY : 4IN GUN
+Damage :%<70 %D
+Range :%<70 %R
+Reload :%<70 %H
+
+COMMENTS :
+This battery shelters the powerfull
+4in gun mounted on turrel.
+When built up on a defense line, it
+proved very hard to cross through.
+Defenseless against air attacks.
+
+TECHNOLOGY REQUIRED :
+%M%>5
+
+
+%>35%N

@@ -1,0 +1,21 @@
+État-major des Armées
+Bureau du Chef d'État-Major
+
+Dégradation : {bld}{rank}{txt}
+
+
+Ayant pris connaissance du rapport sur l'incident de {city} sous le commandement de l'officier {bld}{name}{txt} et suivant l'avis défavorable prononcé par le C.E.O, le Chef d'État-Major reconnaît l'entière responsabilité de l'officier et ordonne sa dégradation pour faute grave, déplorant qu'une telle incompétence ait cours au sein de l'Armée {align}.
+
+
+	Pour le Chef d'État-Major
+	{bld}Le Secrétaire
+
+			le {date}
+
+					{signature4}
+
+						{stamp}
+		{icon1}
+{}
+
+

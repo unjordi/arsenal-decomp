@@ -1,0 +1,29 @@
+%X290%Y275LEICHTPANZER%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN :
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+Geschwind. :%<75 %S
+Radius :%<75 %U
+
+BEWAFFNUNG : 50MM-ROHR
+Schaden :%<75 %D
+Radius :%<75 %R
+Laden :%<75 %H
+
+BEMERKUNGEN :
+Schnell und preiswert herzustellen,
+flink und beweglich, doch leicht an-
+zugreifen und geringe Feuerkraft. Nur
+fr den Blitzkrieg geeignet.
+
+TECHNOLOGIEN :
+%M%>5
+
+
+%>35%N

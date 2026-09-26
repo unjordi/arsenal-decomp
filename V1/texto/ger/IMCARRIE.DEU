@@ -1,0 +1,24 @@
+%X045%Y275FLUGZEUGTRAEGER
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN :
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+Geschwind. :%<75 %S
+Radius :%<75 %U
+
+BEMERKUNGEN :
+Kann bis zu 8 Marinej„ger aufnehmen,
+Speerspitze aller Marineeinheiten.
+Ausreichend eskortiert Garant fr Ihre
+Erfolgschancen.
+
+TECHNOLOGIEN :
+%M%>5
+
+
+%>35%N

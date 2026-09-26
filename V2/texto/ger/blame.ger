@@ -1,0 +1,21 @@
+Komitee zur Beurteilung der Offziere
+Disziplinarkommission, den {date}
+
+Zu Händen : {bld}{name}{txt}
+Disziplinarverweis : {bld}BLAME{txt}
+
+Das Komitee ist zutiefst verärgert über das Ergebnis Ihrer Tätigkeit in {city} und verurteilt einstimmig Ihr Verhalten, das sie  unwürdig für einen Offizier findet {align}. Deshalb wurde Ihnen Ihre höchste Auszeichnung entzogen. Ihre Personalakte ist an das Büro des Generalstab - Chefs weitergeleitet, dieser wird über Ihren künftigen Rang und Ihre weitere dienstliche Verwendung entscheiden.
+
+
+
+	Für das Komitee
+	{bld}Der Generalsekretär
+
+
+					{signature3}
+
+						{stamp}
+		{icon2}
+{}
+
+

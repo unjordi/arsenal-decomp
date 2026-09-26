@@ -1,0 +1,24 @@
+%X290%Y275JEEP%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN :
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+Geschwind. :%<75 %S
+Radius :%<75 %U
+
+BEMERKUNGEN :
+Preiswert und schnell, doch leicht
+anzugreifen. Nur als Erkundungsfahrzeug
+verwendbar. Durch seine Geschwindigkeit
+entkommt er leicht feindlichen Angriffen.
+
+TECHNOLOGIEN :
+%M%>5
+
+
+%>35%N

@@ -1,0 +1,17 @@
+Martial Court
+Verdict on {date}
+
+
+The {bld}{rank} {name}{txt} has been convicted by the Military Tribunal guilty for the charges held against him and has been given a three days prison sentence. This verdict to be executed immediately.
+
+
+	{bld}The Clerk of the Court
+
+
+					{signature5}
+
+						{stamp}
+		{icon0}
+
+
+{}

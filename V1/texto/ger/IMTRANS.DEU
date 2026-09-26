@@ -1,0 +1,23 @@
+%X290%Y275TRANSPORTSCHIFF%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN :
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+Geschwind. :%<75 %S
+Radius :%<75 %U
+
+BEMERKUNGEN :
+Speziell fr die Landung von Bodenein-
+heiten entwickelt. Ein Transportschiff
+kann bis zu vier Fahrzeuge aufnehmen.
+
+TECHNOLOGIEN :
+%M%>5
+
+
+%>35%N

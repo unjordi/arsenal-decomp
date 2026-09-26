@@ -1,0 +1,17 @@
+%X290%Y275CAMION CITERNE%<00
+%X330%Y040COUT DE PRODUCTION :
+Cout :%<75 %G
+Fuel :%<75 %F
+M‚tal :%<75 %I
+D‚lai :%<75 %T
+
+CARACTERISTIQUES :
+Solidit‚ :%<75 %L
+Blindage :%<75 %A
+Vitesse :%<75 %S
+Autonomie :%<75 %U
+
+REMARQUES :
+Utilis‚ pour le r‚approvisionnement en
+carburant des unit‚s terrestres.
+N'est pas arm‚.%.

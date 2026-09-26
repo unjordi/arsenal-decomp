@@ -1,0 +1,31 @@
+%X290%Y275JAGDBOMBER%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN : %O29
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+Geschwind. :%<75 %S
+Radius :%<75 %U
+
+BEWAFFNUNG :
+    20MM-KANONE%.%>504 250KG-BOMBEN%>90
+Schaden :%<70 %W03%D%.%>60Schaden :%<80 %W12%D
+Radius :%<70 %W03%R%.%>60Schockwelle :%<80 %W12%B
+Laden :%<70 %W03%H%.%>60Fehlquote :%<80 %W12%C
+%W12
+
+BEMERKUNGEN :
+Jagdflieger mit mittlerem Aktionsradius,
+geeignet zur Bombardierung im Sturzflug.
+Gnstig bei Bodenangriffen mittlerer
+Reichweite, jedoch schlechter J„ger.
+
+TECHNOLOGIEN :%O18
+%M%>5
+
+
+%>35%N

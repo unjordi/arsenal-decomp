@@ -1,0 +1,24 @@
+%X290%Y275JEEP%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+COMMENTS :
+Low cost, fast but weak. No weapon.
+Only used as reconnaissance vehicle.
+Its speed allows this unit to escape
+from ennemy attack.
+
+TECHNOLOGY REQUIRED :
+%M%>5
+
+
+%>35%N

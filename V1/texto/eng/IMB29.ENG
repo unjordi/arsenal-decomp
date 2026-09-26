@@ -1,0 +1,32 @@
+%X290%Y275ATOMIC BOMBER%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G%.%>40Metal :%<70 %I
+Fuel :%<70 %F%.%>40Delay :%<70 %T
+
+DESIGN FEATURE :%O31
+Life :%<70 %L%.%>30Speed :%<70 %S
+Armor :%<70 %A%.%>30Range :%<70 %U
+
+WEAPONRY : 1 x 5000LB ATOMIC BOMB
+%>50Shockwave Damage :%<90 15
+%>50Shockwave Radius :%<90 6
+
+COMMENTS :
+Robert Onestone became the most famous
+Schyzo physician when he discovered how
+to produce an atomic chain reaction.
+Onestone could calculate the energy
+emited by the reaction but didn't know
+what practical effect would have the
+explosion on things and beings.
+He permits to design the first atomic.
+When he realized the utter destruction
+provoqued by his invention he tried
+to burn his notes and died in the fire
+of his laboratory.
+
+TECHNOLOGY REQUIRED :%O20
+%M%>5
+
+
+%>35%N

@@ -1,0 +1,14 @@
+{size200}{black}Accordé à : {bold1}{blueink}{user}{black}{bold0}
+Passeport expire : {bold1}{red}{expdate}{black}{bold0}
+Licence : {bold1}{statlic}{black}{bold0}
+Passeport : {bold1}{statpass}{black}{bold0}
+ID client : {bold1}{blueink}{clinum}{black}{bold0}
+{buylic}{size0}{offset100}
+- Cliquer sur {blueink}Renouveler passeport{black} pour prolonger votre passeport de jeu en ligne à partir {red}$9.90 Dollars Canadiens{black} pour 1 mois.
+
+- Pour mettre à jour vos informations client et pour recevoir les instructions de récupérations par couriel aller à {blueink}Compte client et instructions de récupération{black}.
+
+- Pour sauvegarder ou restaurer votre perso actuel sur le serveur de Tactical Soft utiliser {blueink}Sauvegarder/Restaurer mon perso{black}.
+
+- Pour tout problème technique ou si vous avez perdu votre mot passe écrire à {blueink}help@tacticalsoft.com{black}.
+{}

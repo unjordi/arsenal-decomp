@@ -1,0 +1,18 @@
+Kriegsgerichtshof
+Urteil vom {date}
+
+
+Das Kriegsgericht befindet {bld}{rank} {name}{txt} der gegen ihn erhobenen Vorwürfe für schuldig und verurteilt ihn zu drei Tagen Haftstrafe.
+Dieser Urteilsspruch ist unverzüglich auszuführen.
+	
+
+	{bld}Der Gerichtsschreiber
+
+
+					{signature5}
+
+						{stamp}
+		{icon0}
+{}
+
+

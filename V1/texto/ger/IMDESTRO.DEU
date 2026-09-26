@@ -1,0 +1,31 @@
+%X290%Y275ZERSTOERER%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN :
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+Geschwind. :%<75 %S
+Radius :%<75 %U
+
+BEWAFFNUNG :
+BUG%=85HECK%=70UNTERWASSER%=70
+50MM-ROHR%=8530MM-MG%=70GRANATE%=70
+Schaden :%<70 %W05%D%.%W04%D%>80%W26%D%>70
+Radius :%<70 %W05%R%.%W04%R%>80%W26%R%>70
+Laden :%<70 %W05%H%.%W04%H%>80%W26%H%>70
+
+BEMERKUNGEN :
+Entworfen zum Kampf gegen U-Boote und
+Flugzeuge. Unverzichtbar fr die Beglei-
+tung von Konvois und Kriegsschiffen,
+jedoch anf„llig in der Seeschlacht.
+
+TECHNOLOGIEN :
+%M%>5
+
+
+%>35%N

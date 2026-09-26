@@ -1,0 +1,32 @@
+%X290%Y275TOXIC LAUNCHER%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G%.Metal :%<99 %I
+Fuel :%<70 %F%.Delay :%<99 %T
+
+DESIGN FEATURE :
+Life :%<70 %L%.Speed :%<99 %S
+Armor :%<70 %A%.Range :%<99 %U
+
+WEAPONRY : 500LB TOXIC WARHEAD
+Damage :%<70 %D%.%>30Blow :%<90 %B
+Range :%<70 %R%.%>30Inaccuracy :%<90 %C
+Reload :%<70 %H%.%>30Toxic Rad :%<90 6
+
+COMMENTS :
+After many years of awful experiences
+on P.O.W., Paranoes became experts in
+chemical war. The first of them was
+Doctor Engel Nikloz whose sick brain
+gave the formula of a deadly gas of
+which a single molecule could inflict
+an instant death. In due course rocket
+engineers adapted a special warhead on
+a missile launcher with the undisguised
+intention to use this new weapon on
+ennemy populations.
+
+TECHNOLOGY REQUIRED :
+%M%>5
+
+
+%>35%N

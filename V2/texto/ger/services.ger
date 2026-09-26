@@ -1,0 +1,14 @@
+{size200}{black}Ausgestellt für : {bold1}{blueink}{user}{black}{bold0}
+Pass-Ablaufdatum : {bold1}{red}{expdate}{black}{bold0}
+Lizenz : {bold1}{statlic}{black}{bold0}
+Pass : {bold1}{statpass}{black}{bold0}
+Klienten-ID : {bold1}{blueink}{clinum}{black}{bold0}
+{buylic}{size0}{offset100}
+- Klicken Sie auf {blueink}Pass erneuern{black}, um Ihren Online-Pass für nur {red}$9.90 Kanadische Dollars{black} für 1 Monat zu verlängern.
+
+- Um Ihre Kundendaten auf den neuesten Stand zu bringen und per E-Mail Anweisungen zur Wiederherstellung Ihres Spiels zu bekommen klicken Sie auf {blueink}Benutzer-Account und Wiederherstellungs.Anweisungen{black}.
+
+- Zum Speichern oder Wiederherstellen Ihrer aktuellen Spielerdatei am/vom Server benutzen Sie {blueink}Speichern/Laden meines Spielers{black}.
+
+- Bei technischen Problemen oder Passwortverlust schreiben Sie bitte an {blueink}help@tacticalsoft.com{black}.
+{}

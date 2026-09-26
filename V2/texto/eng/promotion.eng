@@ -1,0 +1,21 @@
+Armies General Headquarters
+The Chief of Staff Office
+
+Promotion: {bld}{rank}{txt}
+
+
+By his wise decisions and the valuable results he acquired in action, {bld}{name}{txt} shows a voluntary attitude and good spirit that gained him immediate respect among his superiors, by whose recommendation the Chief of Staff confirmed the promotion of {bld}{name}{txt} to the rank of {bld}{rank}{txt}.
+
+
+	On behalf of The Chief of Staff
+	{bld}The Secretary
+
+			on {date}
+
+					{signature3}
+
+						{stamp}
+		{galon}
+
+
+{}

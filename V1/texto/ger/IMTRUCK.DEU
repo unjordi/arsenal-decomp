@@ -1,0 +1,17 @@
+%X290%Y275KIPPWAGEN%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN :
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+Geschwind. :%<75 %S
+Radius :%<75 %U
+
+BEMERKUNGEN :
+Wird nur zum Transport von Erzen zwi-
+schen der Mine und dem Hochofen einge-
+setzt.%.

@@ -1,0 +1,114 @@
+Aide français
+Informations sur les ressources
+L'icône indique le type de ressource, l'argent, le carburant et le métal
+Le chiffre du haut indique la quantité en stock. Le chiffre du bas indique la capacité de stockage
+Cette barre vous indique votre consommation instantanée.
+Panneau de production d'unités
+Cliquez avec la bouton gauche sur l'unité à produire
+Sélectionner les unités endommagées
+Unité en cours d'upgrade
+Fermer le panneau
+Unité en cours de réparation
+Détruire le bâtiment
+Production en cours
+Nombre d'unité à produire
+Panneau de sélection d'unité
+Sélectionner un seul type d'unité
+Envoyer l'unité en patrouille
+La barre est verte si votre stock augmente, par contre elle est rouge quand le stock diminue.
+Nombre d'unités de ce type
+Dans ce cas vous devez produire plus de ressources ou réduire votre consommation
+free
+Exclure un type d'unité
+Les sites de production de ressource
+HABITATIONS:
+Elles abritent de 2 à 20 civils qui en payant leurs impôts vous rapportent de l'argent. Il est important de protéger les maisons car la perte de civil génère des points négatifs
+HAUT FOURNEAU:
+Permet de produire du métal en exploitant les mines avec des camions bennes. Plus le haut fourneau est proche de la mine plus la production est intensive.
+RAFFINERIE:
+Elle produit du carburant grâce au pétrole ramener par les pétroliers depuis la plate-forme en mer. Il ne faut pas manquez de carburant sinon les unités tombent en panne.
+Les sites de production d'unités
+USINE:
+Permet produire des unités terrestres civils ou armée. C'est là aussi qu'il faut faire réparer les véhicules.
+AÉRODROME:
+Il sert à la production des avions et sa piste permet aux avions de décoller. Les avions automatiquement vont se faire réparer s'ils sont endommagés
+CHANTIER NAVAL:
+Produit ou répare tout types de navires. Une flotte puissante est la clé d'une conquête rapide.
+Sélectionner des unités
+Ouvrez une zone de sélection en gardant cliqué le bouton de gauche.
+Annuler la sélection
+Sélectionner un groupe de 0 à 9 directement au clavier
+Créer un groupe avec la touche CTRL et le numéro du groupe
+Dissocier un groupe avec la touche ALT et le numéro du groupe
+Ajouter ou soustraire une unité du groupe sélectionné avec SHIFT
+Changer l'orientation des unités avec la touche CTRL
+0 - 9
+ctrl
+alt
+shift
+Les raccourcis claviers
+aller au dernier message
+vitesse du jeu
+pause
+sortir du jeu
+aide
+mes unités
+unités totales
+mes bâtiments
+bâtiments totals
+mes territoires
+mon rang mondial
+ma puissance
+niveau de difficulté
+mini carte ON/OFF
+640 x 480
+800 x 600
+768 x 1024
+1024 x 1280
+space
++/-
+pause
+esc
+F1
+u
+U
+b
+B
+T
+R
+P
+L
+M
+F9
+F10
+F11
+F12
+Les fonctions de la souris
+déplacer l'unité
+déplacer la formation
+exploiter une ressource
+décoller, atterrir
+ravitailler une unité
+envoyer les pompiers
+prendre un QG avec un bulldozer
+orienter l'unité avec CTRL
+orienter une formation avec CTRL
+définir le centre de traitement
+embarquer, débarquer des unités par transport
+envoyer l'unité faire le plein
+envoyer l'unité en réparation
+charger une bombe sur un lanceur
+production arrêtée, manque de ressource
+tab
+garder les focus ON/OFF
+Copie d'écran
+Commandes de l'éditeur
+ELEVER le terrain
+CREUSER le terrain
+ELEVER fortement
+CREUSER fortement
+interchanger le camp courant avec le camp du numéro choisi
+mettre/enlever incendie du bâtiment sélectionné
+F
+Inc/déc le média courant du mode 'Put Media', comme avec la jauge 'Media'
+fin help

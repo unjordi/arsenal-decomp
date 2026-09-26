@@ -1,0 +1,27 @@
+%X290%Y275LUFTABWEHRGESCHUETZ%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN :
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+
+BEWAFFNUNG : 88MM-KANONE
+Schaden :%<75 %D
+Radius :%<75 %R
+Laden :%<75 %H
+
+BEMERKUNGEN :
+Nach Ihrer Entwicklung erwies sich die
+88mm- Kanone als sehr wirksam in der
+Flugabwehr und wurde rasch zum
+Alptraum aller Piloten.
+
+TECHNOLOGIEN :
+%M%>5
+
+
+%>35%N

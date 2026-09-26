@@ -1,0 +1,31 @@
+%X290%Y275KREUZER%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN :
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+Geschwind. :%<75 %S
+Radius :%<75 %U
+
+BEWAFFNUNG :
+BUG%=85HECK%=90
+150MM-ROHR%=8530MM-MG%=90
+Schaden :%<70 %W09%D%.%W04%D%>99
+Radius :%<70 %W09%R%.%W04%R%>99
+Laden :%<70 %W09%H%.%W04%H%>99
+
+BEMERKUNGEN :
+Starke Feuerkraft, ausgestattet mit
+Flugabwehr. Vielseitig verwendbares
+Kampschiff, doch unbewaffnet gegen
+U-Boote.
+
+TECHNOLOGIEN :
+%M%>5
+
+
+%>35%N

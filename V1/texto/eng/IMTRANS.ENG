@@ -1,0 +1,23 @@
+%X290%Y275TROOP TRANSPORT%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+COMMENTS :
+Specialy designed for ground units
+beaching. A troop transport can carry
+up to four ground units.
+
+TECHNOLOGY REQUIRED :
+%M%>5
+
+
+%>35%N

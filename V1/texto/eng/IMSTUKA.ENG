@@ -1,0 +1,31 @@
+%X290%Y275TACTICAL BOMBER%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :%O29
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+WEAPONRY :
+0.5IN MACHINE GUN%.%>504 X 200LB BOMBS%>90
+Damage :%<70 %W03%D%.%>60Damage :%<80 %W12%D
+Range :%<70 %W03%R%.%>60Blow :%<80 %W12%B
+Reload :%<70 %W03%H%.%>60Inaccuracy :%<80 %W12%C
+%W12
+
+COMMENTS :
+This is in fact a medium range fighter
+with dive bombing capability. Good for
+attack or defense medium range mission,
+but poor air fighter.
+
+TECHNOLOGY REQUIRED :%O18
+%M%>5
+
+
+%>35%N

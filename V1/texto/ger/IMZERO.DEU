@@ -1,0 +1,32 @@
+%X290%Y275KAMIKAZE%<00
+%X330%Y040PRODUKTIONSKOSTEN :
+Kosten :%<75 %G
+Benzin :%<75 %F
+Metall :%<75 %I
+Aufbau :%<75 %T
+
+BESONDERHEITEN : %O32
+Festigkeit :%<75 %L
+Panzerung :%<75 %A
+Geschwind. :%<75 %S
+Radius :%<75 %U
+
+ARMEMENT :
+    12MM-MG%.%>50TNT-LADUNG%>90
+Schaden :%<75 %W1%D%.%>60Schaden :%<85%W24%D
+Radius :%<75 %W1%R%.%>60Schockwelle :%<85%W24%B
+Laden :%<75 %W1%H%.%>60Fehlquote :%<85%W24%C
+
+BEMERKUNGEN :
+Nur die Fanatos waren zum Einsatz
+dieses letzten Mittels imstande.
+Ihre Piloten glaubten durch ihr Opfer
+zum Helden-Gott zu werden und zahl-
+reiche Freiwillige meldeten sich fr
+dieses Selbstmordkommando.
+
+TECHNOLOGIEN :%O21
+%M%>5
+
+
+%>35%N

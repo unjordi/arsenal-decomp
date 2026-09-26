@@ -1,0 +1,27 @@
+%X290%Y275FIGHTER%<00
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :%O27
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+WEAPONRY : 0.5IN MACHINE GUN
+Damage :%<70 %D
+Range :%<70 %R
+Reload :%<70 %H
+
+COMMENTS :
+Its weaponry and speed made this
+fighter the Lord of the skies.
+
+TECHNOLOGY REQUIRED :%O16
+%M%>5
+
+
+%>35%N

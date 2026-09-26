@@ -1,0 +1,10 @@
+{size200}{green}{bold1}BACKUP FERTIGGESTELLT
+{bold0}{size0}{black}
+Dieses Backup ist nur für den Fall, dass Sie Ihre Dateien verlieren. Das nächste Backup wird in 30 Tagen benötigt.
+
+- Um ein CD-ROM-Backup auszuführen müssen Sie nur das Spielverzeichnis zurück auf Ihre Festplatte kopieren.
+
+- Um ein Disketten-Backup auszuführen müssen Sie nur das Programm arsenal2_restore ausführen, das sich auf der ersten Diskette befindet.
+
+{red}{bold1}WICHTIG:{black}{bold0} die Datei ARSENAL2.ADF ist die Wichtigste, denn sie beinhaltet die Lizenz und alle bis zum Zeitpunkt des Backups gemachten Add-ons. {red}{bold1}Überschreiben Sie die Datei ARSENAL2.ADF niemals mit einer älteren auf Ihrer Festplatte{black}{bold0}.
+{}

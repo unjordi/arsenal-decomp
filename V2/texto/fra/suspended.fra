@@ -1,0 +1,8 @@
+{bold1}{size300}{red}LICENCE SUSPENDUE
+{bold0}{black}{size0}
+Cette licence numéro {blueink}{licnum}{black} a été accordée à {blueink}{user}{black} en date du {blueink}{licdate}{black} depuis l'ordinateur suivant:
+{indent200}{hardkey0}{hardkey1}{hardkey2}{hardkey3}{hardkey4}{hardkey5}{hardkey6}{hardkey7}{indent0}
+
+Cette licence a été violée en en date du {red}{violdate}{black} par l'ordinateur suivant:
+{indent200}{violkey0}{violkey1}{violkey2}{violkey3}{violkey4}{violkey5}{violkey6}{violkey7}{indent0}
+{}

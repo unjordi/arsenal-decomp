@@ -1,0 +1,17 @@
+Court Martiale
+Verdict du {date}
+
+
+Le Tribunal Militaire a reconnu le {bld}{rank} {name}{txt} coupable des charges retenues contre lui et le condamne à trois jours d'emprisonnement. L'exécution de la sentence est immédiate.
+	
+
+	{bld}Le Greffier
+
+
+					{signature5}
+
+						{stamp}
+		{icon0}
+{}
+
+

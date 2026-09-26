@@ -1,0 +1,27 @@
+%X290%Y275CHASSEUR%<00
+%X330%Y040COUT DE PRODUCTION :
+Cout :%<75 %G
+Fuel :%<75 %F
+M‚tal :%<75 %I
+D‚lai :%<75 %T
+
+CARACTERISTIQUES :%O27
+Solidit‚ :%<75 %L
+Blindage :%<75 %A
+Vitesse :%<75 %S
+Autonomie :%<75 %U
+
+ARMEMENT : CANON 20MM
+D‚gats :%<75 %D
+Port‚e :%<75 %R
+Rechar :%<75 %H
+
+REMARQUES :
+Son armement et sa vitesse de pointe
+font de ce chasseur le roi des cieux.
+
+TECHNOLOGIE REQUISE :%O16
+%M%>5
+
+
+%>35%N

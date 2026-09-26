@@ -1,0 +1,19 @@
+État-major des Armées
+Bureau du Chef d'État-Major
+
+Promotion : {bld}{rank}{txt}
+
+
+Par ses initiatives et les résultats positifs qu'il a obtenus sur le terrain, {bld}{name}{txt} dénote d'un caractère volontaire et d'une aptitude naturelle au commandement lui ayant valu le respect de ses troupes. Ces qualités ont été reconnues par les autorités supérieures de l'armée {align}, en recommandation desquels le Chef d'État-Major a approuvé sa promotion au grade de {bld}{rank}{txt}.
+
+
+	Pour le Chef d'État-Major
+	{bld}Le Secrétaire
+
+			le {date}
+
+					{signature2}
+
+						{stamp}
+		{galon}
+{}

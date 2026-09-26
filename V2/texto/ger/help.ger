@@ -1,0 +1,115 @@
+Hilfe Deutsch
+Ressourcen-Lageranzeige
+Das Zeichen gibt die Art der Ressource an, entweder Geld, Treibstoff oder Metall
+Die obere Zahl gibt den derzeitigen Lagerbestand an. Die untere Zahl die gesamte Lagerkapazität.
+Der Balken zeigt den ständigen Verbrauch an.
+Einheiten-Produktionsfeld
+Linksklick startet die Produktion der Einheit
+Beschädigte Einheiten auswählen
+Die Einheit wird aufgewertet
+Feld schließen
+Die Einheit wird repariert
+Gebäude zerstören
+Produktion läuft
+Zahl der zu produzierenden Einheiten
+Einheiten-Auswahlfeld
+Wählen Sie eine Art von Einheit
+Einheit auf Patrouille schicken
+Grün zeigt an, dass der Lagerbestand ansteigt, bei Rot ist der Lagerbestand bald aufgebraucht
+Anzahl der Einheiten dieser Art
+In diesem Fall müssen Sie mehr Ressourcen gewinnen oder Ihren Verbrauch einschränken.
+free
+Einheitentyp ausschließen
+Die Anlagen zur Ressourcenproduktion
+WOHNHAUS:
+Ein Haus beherbergt 2-20 Zivilisten, die Steuern zahlen, die wiederum Ihre Finanzen erhöhen. Es ist wichtig, die Häuser zu schützen, denn Verluste unter der Zivilbevölkerung bringen Negativpunkte.
+HOCHOFEN:
+Diese Einrichtung produziert Metall aus dem Erz, das die Lastwagen an der Mine gesammelt haben. Je näher der Hochofen an der Mine ist, desto höher ist auch die Eisenproduktion.
+RAFFINERIE:
+Zur Treibstoffproduktion, können nur an Küsten gebaut werden, Tanker pendeln zwischen ihnen und Bohrinseln. Große Treibstofflager verhindern, dass den Einheiten der Treibstoff ausgeht.
+Einrichtungen zur Einheitenproduktion
+FABRIK:
+Für Bodeneinheiten, ebenso für Zivilfahrzeuge wie für Panzereinheiten. Hier können beschädigte Fahrzeuge repariert werden.
+FLUGPLATZ:
+Wird für die Flugzeugproduktion genutzt und bietet eine Startbahn zum Abheben. Flugzeuge lassen sich automatisch reparieren, wenn sie beschädigt sind.
+SCHIFFSWERFT:
+Kann nur an der Küste errichtet werden, sie produziert und repariert alle Marineeinheiten. Eine starke Flotte ist der Schlüssel zu schnellen Eroberungen.
+Einheiten auswählen
+Schaffen Sie eine Auswahlzone, indem Sie die Maus ziehen und die linke Taste gedrückt halten.
+Auswahl widerrufen
+Wählen Sie eine Gruppe von 0-9 direkt mit der Tastatur
+Erstellen Sie eine Gruppe mit der STRG-Taste und der jeweiligen Nummerntaste
+Lösen Sie Gruppen auf, indem Sie auf ALT und die entsprechende Nummerntaste drücken
+Benutzen Sie die SHIFT-Taste, um eine Einheit zur Gruppe hinzuzufügen oder auszuschließen
+Wechseln Sie die Richtung der Formation mit der STRG-Taste
+0 - 9
+strg
+alt
+shift
+Tastaturbefehle
+Gehe zur letzten Meldung
+Spielgeschwindigkeit
+Pause
+Aus Spiel aussteigen
+Hilfe
+Meine Einheiten
+Alle Einheiten
+Meine Gebäude
+Alle Gebäude
+Mein Territorium
+Mein Weltrang
+Meine Macht
+Schwierigkeitsgrad
+Minikarte EIN/AUS
+640 x 480
+800 x 600
+768 x 1024
+1024 x 1280
+space
++/-
+pause
+esc
+F1
+u
+U
+b
+B
+T
+R
+P
+L
+M
+F9
+F10
+F11
+F12
+Mauscursor Bedeutungen
+Einheit bewegen
+Formation bewegen
+Ressource ausbeuten
+Start, Landung
+Ziel betanken
+Feuer löschen
+HQ mit dem Bulldozer erobern
+Einheit mit STRG rotieren
+Formation mit STRG rotieren
+Ressourcenpendler ansetzen
+An Bord nehmen und absetzen von Einheiten aus dem Transporter
+Einheit geht zum Betanken
+Einheit geht zur Reparatur
+Rakete auf Werfer setzen
+Produktion gestoppt, nicht genügend Ressourcen
+tab
+Fokus erhalten ON/OFF
+Screen shot
+Editor-Befehle
+Level ERHÖHEN
+Level VERTIEFEN
+Viel ERHÖHEN
+Viel VERTIEFEN
+dieses Lager mit dem Lager der gewählten Nummer tauschen
+Feuer am gewählten Gebäude entfachen
+F
+Aufnehmen/nicht aufnehmen des aktuellen 'Put Media'-Modus, wie mit 'Media'
+help end
+

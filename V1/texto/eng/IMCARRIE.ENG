@@ -1,0 +1,25 @@
+%X045%Y275AIRCRAFT CARRIER
+%X330%Y040PRODUCTION REQUIREMENTS :
+Cost :%<70 %G
+Fuel :%<70 %F
+Metal :%<70 %I
+Delay :%<70 %T
+
+DESIGN FEATURE :
+Life :%<70 %L
+Armor :%<70 %A
+Speed :%<70 %S
+Range :%<70 %U
+
+COMMENTS :
+With up to 8 navy fighters on board,
+the aircraft carrier is the spearhead
+of any navy plan. When it is adequately
+escorted it will guarantee your chance
+of success.
+
+TECHNOLOGY REQUIRED :
+%M%>5
+
+
+%>35%N
