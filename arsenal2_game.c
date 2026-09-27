@@ -99539,6 +99539,8 @@ void SetHostPlayerIdDirect_004505a0(void)
 
 // ==== thunk_FUN_00450543 @ 004505a5
 /**
+ * @brief thunk_FUN_00450543
+ * @category game
  * @original thunk_FUN_00450543 @ 004505a5 (arsenal2_game_decomp.c)
  */
 
@@ -125876,6 +125878,8 @@ void InitializeGameSessionNoVeterans_00465444(void)
 
 // ==== thunk_FUN_00465490 @ 0046545c
 /**
+ * @brief thunk_FUN_00465490
+ * @category game
  * @original thunk_FUN_00465490 @ 0046545c (arsenal2_game_decomp.c)
  */
 
@@ -126180,6 +126184,8 @@ void InitPrisonSystem_00465498(void)
 
 // ==== thunk_FUN_00465ff2 @ 004654a0
 /**
+ * @brief thunk_FUN_00465ff2
+ * @category game
  * @original thunk_FUN_00465ff2 @ 004654a0 (arsenal2_game_decomp.c)
  */
 
@@ -131336,6 +131342,8 @@ uint __cdecl CreateNetworkSocket_0046932d(int param_1,undefined4 param_2,undefin
 
 // ==== Ordinal_111 @ 004693b7
 /**
+ * @brief Ordinal_111
+ * @category runtime
  * @original Ordinal_111 @ 004693b7 (arsenal2_game_decomp.c)
  */
 
@@ -142436,6 +142444,8 @@ void CheckScenarioTimerTick_004718e2(void)
 
 // ==== GetTickCount @ 0047191c
 /**
+ * @brief GetTickCount
+ * @category runtime
  * @original GetTickCount @ 0047191c (arsenal2_game_decomp.c)
  */
 
@@ -163769,6 +163779,8 @@ LAB_0048789a:
 
 // ==== Ordinal_2 @ 00487944
 /**
+ * @brief Ordinal_2
+ * @category runtime
  * @original Ordinal_2 @ 00487944 (arsenal2_game_decomp.c)
  */
 
@@ -163784,6 +163796,8 @@ void Ordinal_2(void)
 
 // ==== Ordinal_1 @ 0048794a
 /**
+ * @brief Ordinal_1
+ * @category runtime
  * @original Ordinal_1 @ 0048794a (arsenal2_game_decomp.c)
  */
 
@@ -163799,6 +163813,8 @@ void Ordinal_1(void)
 
 // ==== DirectDrawCreate @ 00487950
 /**
+ * @brief DirectDrawCreate
+ * @category runtime
  * @original DirectDrawCreate @ 00487950 (arsenal2_game_decomp.c)
  */
 
@@ -163814,6 +163830,8 @@ void DirectDrawCreate(void)
 
 // ==== Ordinal_1 @ 00487956
 /**
+ * @brief Ordinal_1
+ * @category runtime
  * @original Ordinal_1 @ 00487956 (arsenal2_game_decomp.c)
  */
 
@@ -163898,6 +163916,8 @@ void InitDynamicArray_004879db(void)
 
 // ==== _strncpy @ 00487a10
 /**
+ * @brief _strncpy
+ * @category runtime
  * @original _strncpy @ 00487a10 (arsenal2_game_decomp.c)
  */
 
@@ -164014,6 +164034,8 @@ LAB_00487a8b:
 
 // ==== _strlen @ 00487b10
 /**
+ * @brief _strlen
+ * @category runtime
  * @original _strlen @ 00487b10 (arsenal2_game_decomp.c)
  */
 
@@ -164301,6 +164323,8 @@ void __cdecl FreeMemory_00487c80(LPVOID param_1)
 
 // ==== operator_new @ 00487c8b
 /**
+ * @brief operator_new
+ * @category runtime
  * @original operator_new @ 00487c8b (arsenal2_game_decomp.c)
  */
 
@@ -164321,6 +164345,8 @@ void * __cdecl operator_new(uint param_1)
 
 // ==== _memset @ 00487ca0
 /**
+ * @brief _memset
+ * @category runtime
  * @original _memset @ 00487ca0 (arsenal2_game_decomp.c)
  */
 
@@ -164402,6 +164428,8 @@ void __cdecl HeapFreeWrapper_00487cf8(LPVOID param_1)
 
 // ==== _malloc @ 00487d27
 /**
+ * @brief _malloc
+ * @category runtime
  * @original _malloc @ 00487d27 (arsenal2_game_decomp.c)
  */
 
@@ -164422,6 +164450,8 @@ void * __cdecl _malloc(size_t _Size)
 
 // ==== __nh_malloc @ 00487d39
 /**
+ * @brief __nh_malloc
+ * @category runtime
  * @original __nh_malloc @ 00487d39 (arsenal2_game_decomp.c)
  */
 
@@ -164554,6 +164584,8 @@ uint * StringFindChar_00487da5(uint *param_1,char param_2)
 
 // ==== _strchr @ 00487db0
 /**
+ * @brief _strchr
+ * @category runtime
  * @original _strchr @ 00487db0 (arsenal2_game_decomp.c)
  */
 
@@ -164665,6 +164697,8 @@ int __cdecl StringCopySafe_00487e6c(undefined1 *param_1,byte *param_2)
 
 // ==== _strcmp @ 00487ec0
 /**
+ * @brief _strcmp
+ * @category runtime
  * @original _strcmp @ 00487ec0 (arsenal2_game_decomp.c)
  */
 
@@ -165195,6 +165229,8 @@ void __fastcall MemcpyAligned_00487fe9(uint param_1,uint param_2)
 
 // ==== caseD_3 @ 00488010
 /**
+ * @brief caseD_3
+ * @category runtime
  * @original caseD_3 @ 00488010 (arsenal2_game_decomp.c)
  */
 
@@ -165528,6 +165564,8 @@ void __fastcall CopyMemoryBlock_00488165(uint param_1,uint param_2)
 
 // ==== caseD_3 @ 00488190
 /**
+ * @brief caseD_3
+ * @category runtime
  * @original caseD_3 @ 00488190 (arsenal2_game_decomp.c)
  */
 
@@ -165817,6 +165855,8 @@ LAB_004883d8:
 
 // ==== _strrchr @ 00488410
 /**
+ * @brief _strrchr
+ * @category runtime
  * @original _strrchr @ 00488410 (arsenal2_game_decomp.c)
  */
 
@@ -165988,6 +166028,8 @@ undefined4 __cdecl FileCloseSearchHandle_004885c6(HANDLE param_1)
 
 // ==== ___timet_from_ft @ 004885e5
 /**
+ * @brief ___timet_from_ft
+ * @category runtime
  * @original ___timet_from_ft @ 004885e5 (arsenal2_game_decomp.c)
  */
 
@@ -166195,6 +166237,8 @@ uint __cdecl FpuSineImpl_004886bd(int param_1,undefined4 param_2)
 
 // ==== __ftol @ 00488750
 /**
+ * @brief __ftol
+ * @category runtime
  * @original __ftol @ 00488750 (arsenal2_game_decomp.c)
  */
 
@@ -166461,6 +166505,8 @@ void __cdecl LogDefaultMessage_004888e1(LPCSTR param_1,char *param_2)
 
 // ==== _memcmp @ 00488900
 /**
+ * @brief _memcmp
+ * @category runtime
  * @original _memcmp @ 00488900 (arsenal2_game_decomp.c)
  */
 
@@ -166627,6 +166673,8 @@ float10 __cdecl MathRoundToPrecision_004889b5(double param_1)
 
 // ==== _longjmp @ 00488a84
 /**
+ * @brief _longjmp
+ * @category runtime
  * @original _longjmp @ 00488a84 (arsenal2_game_decomp.c)
  */
 
@@ -166681,6 +166729,8 @@ void EmptyStubFunction_00488afc(void)
 
 // ==== __setjmp3 @ 00488b00
 /**
+ * @brief __setjmp3
+ * @category runtime
  * @original __setjmp3 @ 00488b00 (arsenal2_game_decomp.c)
  */
 
@@ -166772,6 +166822,8 @@ uint GetRandomNumber_00488b85(void)
 
 // ==== _strncmp @ 00488bb0
 /**
+ * @brief _strncmp
+ * @category runtime
  * @original _strncmp @ 00488bb0 (arsenal2_game_decomp.c)
  */
 
@@ -167197,6 +167249,8 @@ void __fastcall CopyMemoryBlock_00488c89(uint param_1,uint param_2)
 
 // ==== caseD_3 @ 00488cb0
 /**
+ * @brief caseD_3
+ * @category runtime
  * @original caseD_3 @ 00488cb0 (arsenal2_game_decomp.c)
  */
 
@@ -167578,6 +167632,8 @@ void __fastcall MemCopyLarge_00488e05(uint param_1,uint param_2)
 
 // ==== caseD_3 @ 00488e30
 /**
+ * @brief caseD_3
+ * @category runtime
  * @original caseD_3 @ 00488e30 (arsenal2_game_decomp.c)
  */
 
@@ -168440,6 +168496,8 @@ undefined8 ValidateGameState_0048933b(undefined4 param_1,undefined4 param_2,unde
 
 // ==== _strstr @ 00489360
 /**
+ * @brief _strstr
+ * @category runtime
  * @original _strstr @ 00489360 (arsenal2_game_decomp.c)
  */
 
@@ -168889,6 +168947,8 @@ void __cdecl TerminateProcessWithCode_004897f5(UINT param_1)
 
 // ==== __exit @ 00489806
 /**
+ * @brief __exit
+ * @category runtime
  * @original __exit @ 00489806 (arsenal2_game_decomp.c)
  */
 
@@ -168973,6 +169033,8 @@ void __cdecl ExecuteCallbackList_004898b0(undefined4 *param_1,undefined4 *param_
 
 // ==== entry @ 004898ca
 /**
+ * @brief entry
+ * @category runtime
  * @original entry @ 004898ca (arsenal2_game_decomp.c)
  */
 
@@ -169065,6 +169127,8 @@ void RuntimeExitHandler_004899b5(void)
 
 // ==== __amsg_exit @ 004899c0
 /**
+ * @brief __amsg_exit
+ * @category runtime
  * @original __amsg_exit @ 004899c0 (arsenal2_game_decomp.c)
  */
 
@@ -170902,6 +170966,8 @@ undefined4 IsValueAboveThreshold_0048b2ce(double *param_1)
 
 // ==== __fassign @ 0048b2e6
 /**
+ * @brief __fassign
+ * @category runtime
  * @original __fassign @ 0048b2e6 (arsenal2_game_decomp.c)
  */
 
@@ -171122,6 +171188,8 @@ void __cdecl FormatStandardInteger_0048b5c8(undefined4 param_1,char *param_2,siz
 
 // ==== __cfltcvt @ 0048b5eb
 /**
+ * @brief __cfltcvt
+ * @category runtime
  * @original __cfltcvt @ 0048b5eb (arsenal2_game_decomp.c)
  */
 
@@ -171737,6 +171805,8 @@ undefined4 MathIsInf_0048b86c(void)
 
 // ==== __fload_withFB @ 0048b885
 /**
+ * @brief __fload_withFB
+ * @category runtime
  * @original __fload_withFB @ 0048b885 (arsenal2_game_decomp.c)
  */
 
@@ -171793,6 +171863,8 @@ void NoOpStub_0048b8de(void)
 
 // ==== __math_exit @ 0048b8eb
 /**
+ * @brief __math_exit
+ * @category runtime
  * @original __math_exit @ 0048b8eb (arsenal2_game_decomp.c)
  */
 
@@ -172059,6 +172131,8 @@ CallExternalWithStackArgs_0048b9d0(undefined4 param_1,uint param_2,undefined2 pa
 
 // ==== __startOneArgErrorHandling @ 0048b9e7
 /**
+ * @brief __startOneArgErrorHandling
+ * @category runtime
  * @original __startOneArgErrorHandling @ 0048b9e7 (arsenal2_game_decomp.c)
  */
 
@@ -172149,6 +172223,8 @@ LAB_0048ba9e:
 
 // ==== __freebuf @ 0048bad6
 /**
+ * @brief __freebuf
+ * @category runtime
  * @original __freebuf @ 0048bad6 (arsenal2_game_decomp.c)
  */
 
@@ -172255,6 +172331,8 @@ void FlushAllBuffers_0048bb98(void)
 
 // ==== flsall @ 0048bba1
 /**
+ * @brief flsall
+ * @category runtime
  * @original flsall @ 0048bba1 (arsenal2_game_decomp.c)
  */
 
@@ -173024,6 +173102,8 @@ int __cdecl MapFlagsToCategory_0048c548(byte param_1)
 
 // ==== __frnd @ 0048c575
 /**
+ * @brief __frnd
+ * @category runtime
  * @original __frnd @ 0048c575 (arsenal2_game_decomp.c)
  */
 
@@ -173228,6 +173308,8 @@ void NoOpStub_0048c70b(void)
 
 // ==== __global_unwind2 @ 0048c764
 /**
+ * @brief __global_unwind2
+ * @category runtime
  * @original __global_unwind2 @ 0048c764 (arsenal2_game_decomp.c)
  */
 
@@ -173269,6 +173351,8 @@ undefined4 CheckExceptionContext_0048c784(int param_1,undefined4 param_2,undefin
 
 // ==== __local_unwind2 @ 0048c7a6
 /**
+ * @brief __local_unwind2
+ * @category runtime
  * @original __local_unwind2 @ 0048c7a6 (arsenal2_game_decomp.c)
  */
 
@@ -174320,6 +174404,8 @@ undefined4 ReturnZeroStub_0048ca87(void)
 
 // ==== thunk_FUN_0048ca86 @ 0048ca8c
 /**
+ * @brief thunk_FUN_0048ca86
+ * @category runtime
  * @original thunk_FUN_0048ca86 @ 0048ca8c (arsenal2_game_decomp.c)
  */
 
@@ -174332,6 +174418,8 @@ void thunk_FUN_0048ca86(void)
 
 // ==== thunk_FUN_0048ca86 @ 0048ca93
 /**
+ * @brief thunk_FUN_0048ca86
+ * @category runtime
  * @original thunk_FUN_0048ca86 @ 0048ca93 (arsenal2_game_decomp.c)
  */
 
@@ -176122,6 +176210,8 @@ int __cdecl ConvertWideCharToMultiByte_0048e0fa(LPSTR param_1,WCHAR param_2)
 
 // ==== __aulldiv @ 0048e170
 /**
+ * @brief __aulldiv
+ * @category runtime
  * @original __aulldiv @ 0048e170 (arsenal2_game_decomp.c)
  */
 
@@ -176178,6 +176268,8 @@ undefined8 __aulldiv(uint param_1,uint param_2,uint param_3,uint param_4)
 
 // ==== __aullrem @ 0048e1e0
 /**
+ * @brief __aullrem
+ * @category runtime
  * @original __aullrem @ 0048e1e0 (arsenal2_game_decomp.c)
  */
 
@@ -181467,6 +181559,8 @@ undefined4 __cdecl SafeAddUint_00490705(uint param_1,uint param_2,uint *param_3)
 
 // ==== ___add_12 @ 00490726
 /**
+ * @brief ___add_12
+ * @category runtime
  * @original ___add_12 @ 00490726 (arsenal2_game_decomp.c)
  */
 
@@ -182413,6 +182507,8 @@ LAB_004912e6:
 
 // ==== __mbsnbicoll @ 00491346
 /**
+ * @brief __mbsnbicoll
+ * @category runtime
  * @original __mbsnbicoll @ 00491346 (arsenal2_game_decomp.c)
  */
 
@@ -183325,6 +183421,8 @@ uint * __cdecl DuplicateString_00491c77(uint *param_1)
 
 // ==== RtlUnwind @ 00491cb0
 /**
+ * @brief RtlUnwind
+ * @category runtime
  * @original RtlUnwind @ 00491cb0 (arsenal2_game_decomp.c)
  */
 
@@ -183779,6 +183877,8 @@ char * __cdecl LaunchExternalProcess_0049223c(LPCSTR param_1,undefined4 *param_2
 
 // ==== __strcmpi @ 00492290
 /**
+ * @brief __strcmpi
+ * @category runtime
  * @original __strcmpi @ 00492290 (arsenal2_game_decomp.c)
  */
 
