@@ -4523,7 +4523,6 @@ void __thiscall FUN_004053a4(void *this,int *param_1)
 
 
 // ==== FUN_00405443 @ 00405443
-// ARSENAL: avion_en_vuelo_leer — base de unidad + 4×u32 + 8×u8 + u16 [formatos.md]
 
 undefined4 __thiscall FUN_00405443(void *this,int *param_1)
 
@@ -9183,7 +9182,6 @@ void FUN_00409a18(void)
 
 
 // ==== FUN_00409a22 @ 00409a22
-// ARSENAL: crear_edificio_por_tipo — fábrica de objetos 0–12 (vtables) + 13 campamento + 14 grupo [formatos.md]
 
 undefined4 * __cdecl FUN_00409a22(undefined1 param_1)
 
@@ -14103,7 +14101,6 @@ void __fastcall FUN_0040e5d9(int *param_1)
 
 
 // ==== FUN_0040e645 @ 0040e645
-// ARSENAL: buscar_edificio_cercano — (clase movim., tipo, pos, dist. máx, dueño) → edificio más cercano por ruta [ArsenalCamion.cs]
 
 int * __cdecl
 FUN_0040e645(byte param_1,char param_2,undefined4 param_3,byte param_4,undefined4 param_5)
@@ -14217,7 +14214,6 @@ void __thiscall FUN_0040e794(void *this,int *param_1)
 
 
 // ==== FUN_0040e7bd @ 0040e7bd
-// ARSENAL: edificio_leer — objeto base + u8 +0x48 + u8 +0x49 [formatos.md]
 
 undefined4 __thiscall FUN_0040e7bd(void *this,int *param_1)
 
@@ -14278,7 +14274,6 @@ void __cdecl FUN_0040e804(int *param_1)
 
 
 // ==== FUN_0040e87f @ 0040e87f
-// ARSENAL: cargar_edificios — u16 n + n × (u8 tipo + objeto): edificios iniciales del escenario [formatos.md]
 
 void __cdecl FUN_0040e87f(int *param_1)
 
@@ -14748,7 +14743,6 @@ void FUN_0040eb15(void)
 
 
 // ==== FUN_0040eb66 @ 0040eb66
-// ARSENAL: recuento_campamentos — tick: banderas de campamento, derrota, victoria cada 6 ticks [diseno-juego.md §Derrota/victoria]
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 
@@ -15781,7 +15775,6 @@ LAB_0040f747:
 
 
 // ==== FUN_0040f774 @ 0040f774
-// ARSENAL: orden_construir_red — envía el mensaje de red 8 (construir) [ArsenalBulldozer.cs]
 
 void FUN_0040f774(void)
 
@@ -15797,7 +15790,6 @@ void FUN_0040f774(void)
 
 
 // ==== FUN_0040f7ad @ 0040f7ad
-// ARSENAL: orden_construir_recibir — recibe msg 8: slot 0x1ac (abortar), 0x498 construir, 0x280(1) acuse de voz [ArsenalBulldozer.cs]
 
 void FUN_0040f7ad(void)
 
@@ -15870,7 +15862,6 @@ void __fastcall FUN_0040f88d(int param_1)
 
 
 // ==== FUN_0040f8a7 @ 0040f8a7
-// ARSENAL: construir_orden — cobra costo completo, planta banderas (efecto 2), reserva 0x800, apila 0x10/0x0f/0x0e [ArsenalBulldozer.cs]
 
 void __thiscall FUN_0040f8a7(void *this,byte param_1,byte param_2,byte param_3)
 
@@ -16109,7 +16100,6 @@ uint __cdecl FUN_0040fcd6(byte param_1,short param_2,short param_3)
 
 
 // ==== FUN_0040fd1f @ 0040fd1f
-// ARSENAL: obra_recorrer — 0x0f: recorre la huella en espiral; bloqueado se rinde tras 751 ticks [ArsenalBulldozer.cs]
 
 void __fastcall FUN_0040fd1f(int *param_1)
 
@@ -16249,7 +16239,6 @@ void __fastcall FUN_0040fea8(int *param_1)
 
 
 // ==== FUN_0040ffbb @ 0040ffbb
-// ARSENAL: obra_terminar — 0x10: crea el edificio, retira banderas, voz de acción, "X complete" fuera de vista [ArsenalBulldozer.cs]
 
 void __fastcall FUN_0040ffbb(int *param_1)
 
@@ -16620,7 +16609,6 @@ LAB_0041065f:
 
 
 // ==== FUN_0041068e @ 0041068e
-// ARSENAL: obra_abortar — slot 0x1ac: retira banderas, devuelve 0x800, reembolso completo, 231 "Construction aborted" [ArsenalBulldozer.cs]
 
 void __fastcall FUN_0041068e(int *param_1)
 
@@ -16775,7 +16763,6 @@ void __fastcall FUN_0041082e(int *param_1)
 
 
 // ==== FUN_004108b4 @ 004108b4
-// ARSENAL: plan_construccion_agregar — añade (tipo, variante/unidad, pos) a la lista del campamento 0x4c83cc [diseno-juego.md §IA]
 
 void __cdecl FUN_004108b4(byte param_1,undefined1 param_2,undefined1 param_3,undefined2 param_4)
 
@@ -16820,7 +16807,6 @@ void __cdecl FUN_004108b4(byte param_1,undefined1 param_2,undefined1 param_3,und
 
 
 // ==== FUN_00410933 @ 00410933
-// ARSENAL: lista2_campamento_agregar — añade (u16, u16) a la lista 0x4c83d0 del campamento (semántica por decodificar) [formatos.md]
 
 void __cdecl FUN_00410933(byte param_1,undefined2 param_2,undefined2 param_3)
 
@@ -16942,7 +16928,6 @@ void __cdecl FUN_004109aa(int *param_1)
 
 
 // ==== FUN_00410ba1 @ 00410ba1
-// ARSENAL: cargar_jugadores — lee 8 registros de jugador + ciudad + plan de construcción (FUN_004108b4) + lista FUN_00410933 [formatos.md]
 
 void __cdecl FUN_00410ba1(int *param_1)
 
@@ -17215,7 +17200,6 @@ undefined4 __cdecl FUN_00410f9e(byte param_1)
 
 
 // ==== FUN_00410fbf @ 00410fbf
-// ARSENAL: victoria — todos los activos aliados → 281 "You are Victorious" [diseno-juego.md §Derrota/victoria]
 
 undefined4 __cdecl FUN_00410fbf(byte param_1)
 
@@ -17987,7 +17971,6 @@ void __cdecl FUN_004119b0(int *param_1)
 
 
 // ==== FUN_004119c1 @ 004119c1
-// ARSENAL: cargar_diplomacia — 64 B: matriz 8×8 (bit 0 aliado); último bloque del cargador [formatos.md]
 
 void __cdecl FUN_004119c1(int *param_1)
 
@@ -23494,7 +23477,6 @@ void FUN_00417904(void)
 
 
 // ==== FUN_00417936 @ 00417936
-// ARSENAL: crear_unidad_por_tipo — fábrica de las 55 unidades (vtables) [formatos.md]
 
 undefined4 * __cdecl FUN_00417936(undefined1 param_1)
 
@@ -24746,7 +24728,6 @@ undefined * __fastcall FUN_00418d33(int *param_1)
 
 
 // ==== FUN_00418d48 @ 00418d48
-// ARSENAL: voz_decir — slot 0x27c: voz de acción con umbral de cercanía y enfriamiento global [ArsenalVoz.cs]
 
 void __thiscall FUN_00418d48(void *this,ushort param_1,void *param_2)
 
@@ -24830,7 +24811,6 @@ void __thiscall FUN_00418dcc(int *param_1,char param_2)
 
 
 // ==== FUN_00418e6b @ 00418e6b
-// ARSENAL: camion_fijar_par — slot 0x2bc: enlaces rol 10 (fundición) y 8 (mina), estado 0x29 AUTO [ArsenalCamion.cs]
 
 void __thiscall FUN_00418e6b(void *this,undefined4 param_1)
 
@@ -24845,7 +24825,6 @@ void __thiscall FUN_00418e6b(void *this,undefined4 param_1)
 
 
 // ==== FUN_00418e9c @ 00418e9c
-// ARSENAL: camion_orden_fundicion — orden sobre fundición: mina enlazada o la más cercana (≤50, cualquiera) [ArsenalCamion.cs]
 
 void __thiscall FUN_00418e9c(void *this,int param_1)
 
@@ -24883,7 +24862,6 @@ void __thiscall FUN_00418e9c(void *this,int param_1)
 
 
 // ==== FUN_00418f35 @ 00418f35
-// ARSENAL: camion_orden_mina — orden sobre mina: fundición enlazada o la propia más cercana (≤50) [ArsenalCamion.cs]
 
 void __thiscall FUN_00418f35(void *this,int param_1)
 
@@ -28285,7 +28263,6 @@ undefined2 FUN_0041b1b9(void)
 
 
 // ==== FUN_0041b1be @ 0041b1be
-// ARSENAL: unidad_leer_base — objeto base + 2×u16 + 6×u8 + 4×u16 [formatos.md]
 
 undefined4 __thiscall FUN_0041b1be(void *this,int *param_1)
 
@@ -28406,7 +28383,6 @@ char * FUN_0041b309(void)
 
 
 // ==== FUN_0041b30f @ 0041b30f
-// ARSENAL: cargar_lista_unidades — u16 n × (u8 tipo → FUN_00417936 → vslot 0x10) [formatos.md]
 
 void __cdecl FUN_0041b30f(int *param_1,void *param_2)
 
@@ -28480,7 +28456,6 @@ undefined1 FUN_0041b38f(void)
 
 
 // ==== FUN_0041b392 @ 0041b392
-// ARSENAL: cargar_unidades — 4 listas (u16 n + n × [u8 tipo + objeto]) de unidades iniciales [formatos.md]
 
 void __cdecl FUN_0041b392(int *param_1)
 
@@ -36731,7 +36706,6 @@ void __thiscall FUN_004231c4(void *this,int *param_1)
 
 
 // ==== FUN_004231e2 @ 004231e2
-// ARSENAL: campamento_leer — edificio + u32 n × u32 miembros [formatos.md]
 
 undefined4 __thiscall FUN_004231e2(void *this,int *param_1)
 
@@ -38113,7 +38087,6 @@ FUN_004247e1(uint param_1,int *param_2,uint param_3,undefined4 param_4,undefined
 
 
 // ==== FUN_00424853 @ 00424853
-// ARSENAL: ia_fase3_avisos — Refinery required (246), "Smelting furnace required" (245) [ArsenalCampamento.cs]
 
 void __fastcall FUN_00424853(int *param_1)
 
@@ -39417,7 +39390,6 @@ uint __cdecl FUN_00425e78(byte param_1,short param_2,short param_3,byte param_4)
 
 
 // ==== FUN_00425ef7 @ 00425ef7
-// ARSENAL: ia_puede_construir — ¿tipo disponible (tech del edificio y de su unidad), costo ≤ fondos? [diseno-juego.md §IA]
 
 void __cdecl FUN_00425ef7(void *param_1,byte param_2,byte param_3,int param_4)
 
@@ -39489,7 +39461,6 @@ int * __cdecl FUN_00425fdd(char param_1)
 
 
 // ==== FUN_0042602f @ 0042602f
-// ARSENAL: ia_fase2_avisos — No Bulldozer (250), "Housing required" (247) [ArsenalCampamento.cs]
 
 void __fastcall FUN_0042602f(int *param_1)
 
@@ -39875,7 +39846,6 @@ void __fastcall FUN_0042674c(int *param_1)
 
 
 // ==== FUN_00426757 @ 00426757
-// ARSENAL: ia_consejero — objeto campamento (edificio tipo 13): 9 fases rotando por tick [diseno-juego.md §IA]
 
 void __fastcall FUN_00426757(int *param_1)
 
@@ -40028,7 +39998,6 @@ void __thiscall FUN_00426918(void *this,int *param_1)
 
 
 // ==== FUN_004269e0 @ 004269e0
-// ARSENAL: grupo_leer — campamento + 40 B + 7×u16 + u16 + ruta (u16 n × u16) [formatos.md]
 
 undefined4 __thiscall FUN_004269e0(void *this,int *param_1)
 
@@ -45665,7 +45634,6 @@ void __thiscall FUN_0042c246(void *this,int *param_1)
 
 
 // ==== FUN_0042c2ce @ 0042c2ce
-// ARSENAL: vehiculo_leer — base de unidad + 6×u16 + 2×u8 + ruta [formatos.md]
 
 undefined4 __thiscall FUN_0042c2ce(void *this,int *param_1)
 
@@ -51651,7 +51619,6 @@ void __cdecl FUN_004320b1(short param_1,short param_2)
 
 
 // ==== FUN_004320d1 @ 004320d1
-// ARSENAL: autotile — re-tilea por máscara de 4 bordes N1 O2 S4 E8 [formatos.md §AUTOTILE]
 
 void __cdecl FUN_004320d1(char param_1,char param_2)
 
@@ -52077,7 +52044,6 @@ void __thiscall FUN_00432986(void *this,int param_1,int param_2)
 
 
 // ==== FUN_004329fc @ 004329fc
-// ARSENAL: bajar_celda — el bulldozer rebaja lo erodible de la celda [formatos.md §ERODIBLE]
 
 uint __cdecl FUN_004329fc(int param_1,int param_2)
 
@@ -52337,7 +52303,6 @@ void __cdecl FUN_00432dd6(int *param_1,undefined4 *param_2)
 
 
 // ==== FUN_00432e95 @ 00432e95
-// ARSENAL: guardar_partida — firma ARSENAL2.D, cabecera, rejilla, investigación, jugadores, efectos… [formatos.md]
 
 void __cdecl FUN_00432e95(undefined4 param_1,char param_2)
 
@@ -52383,7 +52348,6 @@ void __cdecl FUN_00432e95(undefined4 param_1,char param_2)
 
 
 // ==== FUN_00433008 @ 00433008
-// ARSENAL: cargar_partida — carga partidas y escenarios .agf (mismo orden que guardar) [formatos.md]
 
 undefined1 __cdecl FUN_00433008(char *param_1)
 
@@ -53593,7 +53557,6 @@ void __cdecl FUN_0043441a(int *param_1,char *param_2)
 
 
 // ==== FUN_00434567 @ 00434567
-// ARSENAL: partida_generada_campamentos — por campamento: vacía investigado, 20000 de cada recurso, base de la plantilla QHFHEHHUSHHFUEHH [diseno-juego.md]
 
 void FUN_00434567(void)
 
@@ -60225,7 +60188,6 @@ LAB_0043b91a:
 
 
 // ==== FUN_0043b924 @ 0043b924
-// ARSENAL: generar_mapa — pipeline del generador aleatorio (ríos, minas, plataformas, montañas…) [diseno-juego.md]
 
 void __cdecl FUN_0043b924(char param_1)
 
@@ -68062,7 +68024,6 @@ void FUN_00442d12(void)
 
 
 // ==== FUN_00442d1c @ 00442d1c
-// ARSENAL: mensaje_publicar — (id, jugador, vida, lugar, retardo): lista de avisos con voz [diseno-juego.md §Avisos]
 
 void __cdecl
 FUN_00442d1c(ushort param_1,char param_2,undefined2 param_3,undefined2 param_4,short param_5)
@@ -68225,7 +68186,6 @@ void __cdecl FUN_00442f50(ushort param_1,char param_2,undefined2 param_3,short p
 
 
 // ==== FUN_00442f75 @ 00442f75
-// ARSENAL: mensaje_f75 — aviso al jugador [diseno-juego.md §Avisos]
 
 void __cdecl FUN_00442f75(ushort param_1,char param_2,undefined2 param_3,undefined2 param_4)
 
@@ -68236,7 +68196,6 @@ void __cdecl FUN_00442f75(ushort param_1,char param_2,undefined2 param_3,undefin
 
 
 // ==== FUN_00442f90 @ 00442f90
-// ARSENAL: mensaje_f90 — aviso solo si el lugar está fuera de la vista [diseno-juego.md §Avisos]
 
 uint __thiscall
 FUN_00442f90(void *this,ushort param_1,char param_2,undefined2 param_3,undefined4 param_4)
@@ -71041,7 +71000,6 @@ void __cdecl FUN_00445a39(int *param_1)
 
 
 // ==== FUN_00445a89 @ 00445a89
-// ARSENAL: cargar_misiles — u16 n + misiles en vuelo (FUN_00445b1c, deserializador 0x445920) [formatos.md]
 
 void __cdecl FUN_00445a89(int *param_1)
 
@@ -71574,7 +71532,6 @@ void __fastcall FUN_004461a1(int param_1)
 
 
 // ==== FUN_004461ea @ 004461ea
-// ARSENAL: efecto_tick — temporizador; bandera 0x80 = oculto hasta el retardo; paso de frame [ArsenalBandera.cs]
 
 void __fastcall FUN_004461ea(int param_1)
 
@@ -71729,7 +71686,6 @@ undefined4 __thiscall FUN_00446369(void *this,int *param_1)
 
 
 // ==== FUN_004463c5 @ 004463c5
-// ARSENAL: cargar_efectos — u16 contador + efectos de la lista 0x4cadc0 [formatos.md]
 
 void __cdecl FUN_004463c5(int *param_1)
 
@@ -71876,7 +71832,6 @@ FUN_00446558(undefined1 param_1,char param_2,undefined4 param_3,undefined4 param
 
 
 // ==== FUN_004465bc @ 004465bc
-// ARSENAL: efecto_crear_oculto — efecto de la lista 0x4cadc0 con retardo (+0x1c) antes de aparecer [ArsenalBandera.cs]
 
 void __cdecl
 FUN_004465bc(undefined1 param_1,char param_2,undefined4 param_3,undefined4 param_4,
@@ -71919,7 +71874,6 @@ int __cdecl FUN_004465f1(char param_1,short param_2,short param_3,char param_4,i
 
 
 // ==== FUN_00446654 @ 00446654
-// ARSENAL: efecto_retirar — busca (tipo, x, y, dueño) y lo quita (o lo desvanece) [ArsenalBandera.cs]
 
 void __cdecl
 FUN_00446654(char param_1,short param_2,short param_3,char param_4,int param_5,int *param_6)
@@ -72073,7 +72027,6 @@ void FUN_0044673c(void)
 
 
 // ==== FUN_0044682c @ 0044682c
-// ARSENAL: cursor_dibujar — dibuja el frame actual en ratón + desplazamiento del frame [formatos.md §Cursores]
 
 void __fastcall FUN_0044682c(undefined4 param_1,undefined4 param_2)
 
@@ -72173,7 +72126,6 @@ void FUN_004469c9(void)
 
 
 // ==== FUN_004469d1 @ 004469d1
-// ARSENAL: cursor_fijar — id → tabla de cursores 0x4bcde8 (primer/último frame, ticks por frame) [formatos.md §Cursores]
 
 void __cdecl FUN_004469d1(byte param_1)
 
@@ -89335,7 +89287,6 @@ undefined4 FUN_004564a6(void)
 
 
 // ==== FUN_004564bc @ 004564bc
-// ARSENAL: menu_abrir — abre (o reusa) el recuadro de selección con el tipo de menú 0x6f…0x73 [formatos.md §Recuadro de selección]
 
 void __cdecl FUN_004564bc(undefined2 param_1)
 
@@ -89378,7 +89329,6 @@ void __cdecl FUN_004564bc(undefined2 param_1)
 
 
 // ==== FUN_004565a0 @ 004565a0
-// ARSENAL: menu_ventana — ventana 0xbd×0x14 del recuadro + botón cerrar (sprite 360) [formatos.md §Recuadro de selección]
 
 undefined4 * __thiscall FUN_004565a0(void *this,undefined2 param_1)
 
@@ -89411,7 +89361,6 @@ char * FUN_0045663b(void)
 
 
 // ==== FUN_00456641 @ 00456641
-// ARSENAL: menu_ventana_dibujar — barra de latón 4239, ícono del tipo 4232+k y título [formatos.md §Recuadro de selección]
 
 void __fastcall FUN_00456641(int *param_1)
 
@@ -89530,7 +89479,6 @@ LAB_00456930:
 
 
 // ==== FUN_00456941 @ 00456941
-// ARSENAL: menu_agregar_celda — agrega una celda 0x3f×0x2a en 3 columnas y hace crecer la ventana [formatos.md §Recuadro de selección]
 
 void __cdecl FUN_00456941(undefined4 param_1,short *param_2)
 
@@ -89550,7 +89498,6 @@ void __cdecl FUN_00456941(undefined4 param_1,short *param_2)
 
 
 // ==== FUN_00456987 @ 00456987
-// ARSENAL: menu_colocar — coloca el recuadro a 50 px del ratón, del lado con más espacio [formatos.md §Recuadro de selección]
 
 void FUN_00456987(void)
 
@@ -89703,7 +89650,6 @@ void FUN_00456b52(void)
 
 
 // ==== FUN_00456b6a @ 00456b6a
-// ARSENAL: menu_cerrar — marca el recuadro para cerrar y limpia DAT_004d6680 [formatos.md §Recuadro de selección]
 
 void FUN_00456b6a(void)
 
@@ -89761,7 +89707,6 @@ void __cdecl FUN_00456ba3(short *param_1,short *param_2,char param_3)
 
 
 // ==== FUN_00456bea @ 00456bea
-// ARSENAL: menu_rellenar — completa la última fila con celdas X (sprite 106) que cierran [formatos.md §Recuadro de selección]
 
 undefined4 __cdecl FUN_00456bea(undefined4 param_1,undefined4 param_2)
 
@@ -89983,7 +89928,6 @@ undefined4 * __thiscall FUN_00456fe0(void *this,short param_1,short param_2)
 
 
 // ==== FUN_0045702b @ 0045702b
-// ARSENAL: celda_info_dibujar — celda roja con XP (vslot 0x360) y blindaje (vslot 0x358) [formatos.md §Recuadro de selección]
 
 void __fastcall FUN_0045702b(int param_1)
 
@@ -90087,7 +90031,6 @@ void __fastcall FUN_0045716a(int param_1)
 
 
 // ==== FUN_004572d2 @ 004572d2
-// ARSENAL: menu_unidades — menú 0x6f: celda de info + una celda por miembro del grupo [formatos.md §Recuadro de selección]
 
 void __fastcall FUN_004572d2(int param_1)
 
@@ -90155,7 +90098,6 @@ undefined4 * __thiscall FUN_004573a9(void *this,short param_1,short param_2,int 
 
 
 // ==== FUN_0045740e @ 0045740e
-// ARSENAL: celda_unidad_dibujar — ícono tipo+1 + barra de vida verde de 39 px + marcas 107/109/110 [formatos.md §Recuadro de selección]
 
 void __fastcall FUN_0045740e(int param_1)
 
@@ -90223,7 +90165,6 @@ LAB_0045758f:
 
 
 // ==== FUN_004575ba @ 004575ba
-// ARSENAL: menu_bulldozer — lista tipos 0–9 con su investigación hecha [diseno-juego.md §Research tree]
 
 void __fastcall FUN_004575ba(int *param_1)
 
@@ -90283,7 +90224,6 @@ LAB_00457669:
 
 
 // ==== FUN_004576e0 @ 004576e0
-// ARSENAL: editor_permitir_investigacion — marca investigable i y recursivamente sus prerrequisitos [diseno-juego.md §Research tree]
 
 void __cdecl FUN_004576e0(uint param_1,byte param_2)
 
@@ -91632,7 +91572,6 @@ void __thiscall FUN_00458f22(void *this,int *param_1)
 
 
 // ==== FUN_00458fd3 @ 00458fd3
-// ARSENAL: objeto_leer_base — u8 dueño, u8, u8, 5×u16, 2×u32, u16 celda + 3 listas (u16 · u16,u16 · rol,id) [formatos.md]
 
 undefined4 __thiscall FUN_00458fd3(void *this,int *param_1)
 
@@ -91814,7 +91753,6 @@ void __cdecl FUN_0045923f(int *param_1)
 
 
 // ==== FUN_00459297 @ 00459297
-// ARSENAL: cargar_rejilla_ids — u32 por celda: id del objeto que la ocupa [formatos.md]
 
 void __cdecl FUN_00459297(int *param_1)
 
@@ -95391,7 +95329,6 @@ void __cdecl FUN_0045c7a2(int *param_1,int param_2)
 
 
 // ==== FUN_0045c7e3 @ 0045c7e3
-// ARSENAL: ruta_leer — u16 n + n × u16 posiciones [formatos.md]
 
 void __cdecl FUN_0045c7e3(int *param_1,int *param_2)
 
@@ -95987,7 +95924,6 @@ void FUN_0045d2a1(void)
 
 
 // ==== FUN_0045d321 @ 0045d321
-// ARSENAL: perfil_cargar — lee el perfil .apf: cabecera + historial de partidas + lista (u8,u8,u8,u16) [diseno-juego.md §Rangos]
 
 undefined1 __cdecl FUN_0045d321(char *param_1,char *param_2,char param_3)
 
@@ -99662,7 +99598,6 @@ void FUN_00460d3f(void)
 
 
 // ==== FUN_00460d7a @ 00460d7a
-// ARSENAL: investigacion_iniciar_tabla — Init RESEARCH: arma los conjuntos de prerrequisitos (@0x460dae) [tabla-investigacion.py]
 
 undefined4 FUN_00460d7a(void)
 
@@ -99773,7 +99708,6 @@ void FUN_004610ad(void)
 
 
 // ==== FUN_004610cf @ 004610cf
-// ARSENAL: investigacion_guardar — escribe investigable ×8 + investigado ×8 [diseno-juego.md §Research tree]
 
 void __cdecl FUN_004610cf(int *param_1)
 
@@ -99800,7 +99734,6 @@ void __cdecl FUN_004610cf(int *param_1)
 
 
 // ==== FUN_00461106 @ 00461106
-// ARSENAL: investigacion_cargar — lee investigable ×8 + investigado ×8 (en .agf: tras la rejilla + u32) [formatos.md]
 
 void __cdecl FUN_00461106(int *param_1)
 
@@ -99847,7 +99780,6 @@ void FUN_0046113d(void)
 
 
 // ==== FUN_0046115e @ 0046115e
-// ARSENAL: investigacion_todo — marca las 39 investigaciones como hechas e investigables (partida generada) [diseno-juego.md §Research tree]
 
 void FUN_0046115e(void)
 
@@ -100050,7 +99982,6 @@ undefined2 FUN_00461443(void)
 
 
 // ==== FUN_00461448 @ 00461448
-// ARSENAL: hq_fijar_nacion — HQ +0x4c = nación del dueño = VARIANTE (frame 122+2·nación y máscara @0x40ea2d: v0/v2 una planta, v1/v3/v4 bloque 4×4) [openra-export.py MASCARAS_VAR]
 
 void __thiscall
 FUN_00461448(void *this,uint param_1,uint param_2,undefined4 param_3,undefined4 param_4)
@@ -100426,7 +100357,6 @@ void __thiscall FUN_00461d42(int *param_1,char param_2)
 
 
 // ==== FUN_00461d69 @ 00461d69
-// ARSENAL: hq_capturado — 237/236; roba todo lo investigado del dueño → 238 "New Technology acquired" [diseno-juego.md §Research tree]
 
 void __thiscall FUN_00461d69(void *this,byte param_1)
 
@@ -100551,7 +100481,6 @@ LAB_00461fff:
 
 
 // ==== FUN_0046202a @ 0046202a
-// ARSENAL: investigacion_disponible — i ∉ S ∧ investigable ∧ prerrequisitos ⊆ S [ArsenalInvestigacion.cs]
 
 undefined4 __cdecl FUN_0046202a(byte param_1,void *param_2,byte param_3)
 
@@ -100571,7 +100500,6 @@ undefined4 __cdecl FUN_0046202a(byte param_1,void *param_2,byte param_3)
 
 
 // ==== FUN_0046207b @ 0046207b
-// ARSENAL: ia_elegir_investigacion — prioridad 0→2→1, luego sorteo ponderado A/B por nación [diseno-juego.md §Research tree]
 
 void __fastcall FUN_0046207b(int *param_1)
 
@@ -100914,7 +100842,6 @@ void FUN_0046257e(void)
 
 
 // ==== FUN_00462588 @ 00462588
-// ARSENAL: rango_de_puntuacion — mayor i (0–20) con umbral de la tabla 0x4c3b48 ≤ puntuación [diseno-juego.md §Rangos]
 
 void __cdecl FUN_00462588(int param_1)
 
@@ -100933,7 +100860,6 @@ void __cdecl FUN_00462588(int param_1)
 
 
 // ==== FUN_004625a2 @ 004625a2
-// ARSENAL: reputacion_titulo — nivel 0–10 de reputación (umbrales 0x4c3e3c) → messages 338–348 [diseno-juego.md §Rangos]
 
 void __cdecl FUN_004625a2(int param_1)
 
@@ -100991,7 +100917,6 @@ uint __cdecl FUN_004625d0(int param_1)
 
 
 // ==== FUN_0046260c @ 0046260c
-// ARSENAL: tiempo_de_juego — (h·60 + min)·60 + s [diseno-juego.md §Rangos]
 
 int FUN_0046260c(void)
 
@@ -101037,7 +100962,6 @@ void FUN_00462654(void)
 
 
 // ==== FUN_00462683 @ 00462683
-// ARSENAL: puntos_base — tabla de puntos por categoría (XP base, +9 del edificio, ±2000 HQ, −1000 atómica…) [diseno-juego.md §Rangos]
 
 uint __cdecl FUN_00462683(undefined2 param_1,byte param_2)
 
@@ -101090,7 +101014,6 @@ uint __cdecl FUN_00462683(undefined2 param_1,byte param_2)
 
 
 // ==== FUN_00462779 @ 00462779
-// ARSENAL: puntos_nivel — nivel del multiplicador: 3 normal, 7 entrenador, 4–6 bonos [diseno-juego.md §Rangos]
 
 byte __cdecl FUN_00462779(byte param_1,char param_2,byte param_3)
 
@@ -101113,7 +101036,6 @@ byte __cdecl FUN_00462779(byte param_1,char param_2,byte param_3)
 
 
 // ==== FUN_004627d4 @ 004627d4
-// ARSENAL: puntos_escalar — × (num/den) de la tabla 0x4c3ed0 según nivel (×1 normal, ×1/10 entrenador…) [diseno-juego.md §Rangos]
 
 int __cdecl FUN_004627d4(int param_1,byte param_2)
 
@@ -101134,7 +101056,6 @@ int __cdecl FUN_004627d4(int param_1,byte param_2)
 
 
 // ==== FUN_00462808 @ 00462808
-// ARSENAL: puntos_texto — id de mensaje del evento (0x75+unidad, 0xac+edificio, 624+…) [diseno-juego.md §Rangos]
 
 int __cdecl FUN_00462808(undefined2 param_1,byte param_2)
 
@@ -101179,7 +101100,6 @@ int __cdecl FUN_00462808(undefined2 param_1,byte param_2)
 
 
 // ==== FUN_004628d2 @ 004628d2
-// ARSENAL: puntuar_evento — suma puntos por evento (categoría, subtipo) con multiplicador; texto flotante [diseno-juego.md §Rangos]
 
 void __cdecl FUN_004628d2(byte param_1,byte param_2,byte param_3,int *param_4,byte param_5)
 
@@ -103504,7 +103424,6 @@ LAB_00465172:
 
 
 // ==== FUN_00465185 @ 00465185
-// ARSENAL: bajar_rangos — puntuación = umbral del rango actual − n [diseno-juego.md §Rangos]
 
 void __cdecl FUN_00465185(short param_1)
 
@@ -103571,7 +103490,6 @@ FUN_004651f3(undefined1 param_1,undefined1 param_2,undefined1 param_3,undefined2
 
 
 // ==== FUN_0046523b @ 0046523b
-// ARSENAL: tropas_de_campania — por rango: conserva N unidades de cada tipo (las de mejor XP) para la siguiente misión [diseno-juego.md §Rangos]
 
 void FUN_0046523b(void)
 
@@ -107801,7 +107719,6 @@ void __thiscall FUN_00468e85(void *this,int *param_1)
 
 
 // ==== FUN_00468ec6 @ 00468ec6
-// ARSENAL: objeto_leer_raiz — 2 B etiqueta, u8, u8, u16, u16 [formatos.md]
 
 undefined4 __thiscall FUN_00468ec6(void *this,int *param_1)
 
@@ -115261,7 +115178,6 @@ void __thiscall FUN_0046f8d9(void *this,int *param_1)
 
 
 // ==== FUN_0046f902 @ 0046f902
-// ARSENAL: objeto_leer_posicion — u32 px (x,y), u16 sprite [formatos.md]
 
 undefined4 __thiscall FUN_0046f902(void *this,int *param_1)
 
@@ -116781,7 +116697,6 @@ void __thiscall FUN_00470ff5(void *this,int *param_1)
 
 
 // ==== FUN_0047101e @ 0047101e
-// ARSENAL: vehiculo_torreta_leer — vehículo + ESCRIBE 2 B (vslot 0x6c) al cargar: bug del original, el cursor avanza [formatos.md]
 
 undefined4 __thiscall FUN_0047101e(void *this,int *param_1)
 
@@ -118974,7 +118889,6 @@ void __cdecl FUN_00472af2(int *param_1)
 
 
 // ==== FUN_00472b4a @ 00472b4a
-// ARSENAL: cargar_arboles — u16 n × árbol (24 B: base de posición + 4×u8 + 2×u16 + u16) [formatos.md]
 
 void __cdecl FUN_00472b4a(int *param_1)
 
@@ -119154,7 +119068,6 @@ void __fastcall FUN_00472ca4(int *param_1)
 
 
 // ==== FUN_00472e22 @ 00472e22
-// ARSENAL: camion_descarga — frames 0..7; en el 3 acredita vslot 0x124(1, 1000) [ArsenalCamion.cs]
 
 void __fastcall FUN_00472e22(int *param_1)
 
@@ -119270,7 +119183,6 @@ void __fastcall FUN_00472f3c(int *param_1)
 
 
 // ==== FUN_00472f84 @ 00472f84
-// ARSENAL: camion_auto — 0x4a8: lee enlaces 8/10 y arranca el ciclo [diseno-juego.md §Camión]
 
 void __fastcall FUN_00472f84(int *param_1)
 
@@ -120012,7 +119924,6 @@ void __cdecl FUN_0047393e(int *param_1)
 
 
 // ==== FUN_004739d8 @ 004739d8
-// ARSENAL: cursor_contexto_mapa — elige el cursor según lo que hay bajo el ratón y la selección (vslot 0x194 del objeto) [formatos.md §Cursores]
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 
