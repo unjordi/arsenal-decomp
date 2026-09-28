@@ -4217,8 +4217,9 @@ undefined4 __thiscall AircraftGetBase_0040415f(int *outBase,undefined4 *param_2)
 // ==== AircraftFlyToBase_004041ab @ 004041ab
 /**
  * @brief AircraftFlyToBase — Sends the aircraft back to its base when it has one and enough fuel stock.
- * @details With a base (vslot 0x4ac) and fuel stock (vslot 0x4b4): sets timer 2, clears jobs 0x15/0x13 and flies to the cell two tiles past
- *          the base anchor; the order is refused (no take-off) otherwise.
+ * @details With a base (vslot 0x4ac) and fuel stock (vslot 0x4b4): sets timer 2, clears pushes RotTarma, TkOffWt, AliTarma, TakeOff after
+ *          GoDest — runs GoDest → RotTarma → TkOffWt → AliTarma → TakeOff (job stack +0x38, last pushed runs first) and flies to the cell
+ *          two tiles past the base anchor; the order is refused (no take-off) otherwise.
  * @param order (param_1) order parameter
  * @category game
  * @locals base ← local_8
@@ -5387,6 +5388,7 @@ void __cdecl UnitBurnTerrain_00404f36(byte param_1,char *param_2)
  * @brief UnitScaleTerrainCoords — Applies a rotation and scaling factor to terrain coordinates, adjusting the X, Y, and Z components with clamping logic similar to the burn terrain function.
  * @category game
  * @original FUN_00405028 @ 00405028 (arsenal2_game_decomp.c)
+ * @remake OpenArsenal.Logica/Unidades/CombateAereo.cs
  * @naming local model, unreviewed
  */
 
@@ -7376,6 +7378,7 @@ uint __thiscall AircraftCanEngage_00406ae8(void *this,int target,short *outDista
  * @brief UnitUpdateWeaponCooldown — Checks if the unit's weapon cooldown timer has expired and triggers the firing logic if the target is within range.
  * @category game
  * @original FUN_00406b4a @ 00406b4a (arsenal2_game_decomp.c)
+ * @remake OpenArsenal.Logica/Unidades/CombateAereo.cs, OpenRA.Mods.Arsenal/Traits/ArsenalCombateAereo.cs
  * @naming local model, unreviewed
  */
 
@@ -7410,7 +7413,7 @@ void __thiscall UnitUpdateWeaponCooldown_00406b4a(void *this,undefined4 param_1,
  * @category game
  * @locals target ← local_c
  * @original FUN_00406bab @ 00406bab (arsenal2_game_decomp.c)
- * @remake OpenArsenal.Logica/Unidades/Rumbo.cs
+ * @remake OpenArsenal.Logica/Unidades/CombateAereo.cs, OpenRA.Mods.Arsenal/Traits/ArsenalCombateAereo.cs
  * @naming curated by hand; variables and summary: curated by Claude against the remake port
  */
 
@@ -7494,6 +7497,7 @@ void __fastcall AircraftDogfight_00406bab(int *param_1)
  * @brief UnitFireProjectile — Spawns a projectile object with calculated trajectory parameters and plays the associated firing sound effect.
  * @category game
  * @original FUN_00406cde @ 00406cde (arsenal2_game_decomp.c)
+ * @remake OpenArsenal.Logica/Unidades/CombateAereo.cs
  * @naming local model, unreviewed
  */
 
@@ -7614,8 +7618,8 @@ void __fastcall UnitHandleTargeting_00406dea(int *param_1)
 // ==== AircraftBombRunStep_00406e94 @ 00406e94
 /**
  * @brief AircraftBombRunStep — One bomb of the bombing run.
- * @details Bomb run (job 0x1b, vslot 0x42c): drops its bomb (vslot 0x3a8) and, when it went out, decrements the ammo +0x70; empty, returns
- *          to base (link 4) or goes idle.
+ * @details Bomb run (job 0x1b Bombing, vslot 0x42c): drops its bomb (vslot 0x3a8) and, when it went out, decrements the ammo +0x70; empty,
+ *          returns to base (link 4) or goes idle.
  * @category game
  * @locals base ← local_8
  * @original FUN_00406e94 @ 00406e94 (arsenal2_game_decomp.c)
@@ -13195,7 +13199,8 @@ LAB_0040b0e1:
 /**
  * @brief FactoryDeliverUnit — Delivery of a produced unit.
  * @details Factory vslot 0x2e4: creates the produced unit next to its exit cell (FUN_0041adfe; fatal error if it cannot); quantity > 1 →
- *          quantity − 1 and continues, otherwise stops (job 0xc).
+ *          quantity − 1 and continues, otherwise clears the production (var 0xc); the new unit comes out (link 7 = factory, FUN_0042da50)
+ *          and, if it can be upgraded (vslot 0x90), the factory pushes job 0x42 Repair to upgrade it.
  * @return true when a unit was delivered
  * @category game
  * @locals unit ← piVar4
@@ -19654,7 +19659,8 @@ void __fastcall BulldozerErodeCell_0040f88d(int param_1)
 /**
  * @brief BulldozerBuildOrder — Starts a construction.
  * @details Bulldozer build order: charges the FULL cost, remembers type and cell (vars 0xb, 1), reserves the footprint (clears 0x800),
- *          plants the site flags and stacks the jobs 0x10 build / 0x0f walk / 0x0e level.
+ *          plants the site flags and stacks the job stack Bulldoz2 (0x0e, level) → Bulldoz3 (0x0f, walk the footprint) → StrtBld (0x10,
+ *          build) (job stack +0x38, last pushed runs first).
  * @param type (param_1) building type
  * @param x (param_2) cell x
  * @param y (param_3) cell y
@@ -31288,7 +31294,7 @@ void __thiscall UnitAcknowledgeOrder_00418dcc(int *kind,char param_2)
 // ==== TruckAssignPair_00418e6b @ 00418e6b
 /**
  * @brief TruckAssignPair — Assigns a truck its mine and foundry.
- * @details Truck vslot 0x2bc: link 10 = foundry/refinery, link 8 = mine/platform, job 0x29 (auto: go to load).
+ * @details Truck vslot 0x2bc: link 10 = foundry/refinery, link 8 = mine/platform, job 0x29 Work (the truck cycle).
  * @param foundry (param_1) foundry or refinery
  * @category game
  * @original FUN_00418e6b @ 00418e6b (arsenal2_game_decomp.c)
@@ -31411,7 +31417,7 @@ void __thiscall TruckOrderToMine_00418f35(void *this,int mine)
 // ==== UnitOrderAttack_00418fcd @ 00418fcd
 /**
  * @brief UnitOrderAttack — Sets an attack target.
- * @details Unit attack order: link 3 = the target and job 0x1c.
+ * @details Unit attack order: link 3 = the target and pushes job 0x1c GoBoard.
  * @param target (param_1) object to attack
  * @return true
  * @category game
@@ -31588,8 +31594,8 @@ char __fastcall CountUnitsInCell_004190e0(int param_1)
 // ==== UnitEnterBuilding_00419100 @ 00419100
 /**
  * @brief UnitEnterBuilding — Unit enters a building for service.
- * @details A unit enters a service building (job 7, link 7): leaves the map into the inside list (0x4c8e48); if contaminated, contaminates
- *          the building (vslot 0x17c).
+ * @details A unit enters a service building (link 7 = building; its job is CloseObj 0x7): leaves the map into the inside list (0x4c8e48);
+ *          if contaminated, contaminates the building (vslot 0x17c).
  * @param building (param_1) service building
  * @param slot (param_2) service slot
  * @category game
@@ -59027,7 +59033,7 @@ void __fastcall CheckUnitCanFire_0042dfaf(int *param_1)
 /**
  * @brief UnitGoRefuelAt — Heads a unit to a refinery to refuel.
  * @details Sends the unit to refuel at a refinery: destination = its land service cell (vslot 0xb4) or water one (vslot 0xb8) by domain,
- *          link 9 = refinery, jobs 0x28 then 1.
+ *          link 9 = refinery, job stack GoDest → Refuel (0x28) (job stack +0x38, last pushed runs first).
  * @param refinery (param_1) refinery
  * @category game
  * @original FUN_0042dfd7 @ 0042dfd7 (arsenal2_game_decomp.c)
@@ -59222,8 +59228,8 @@ uint __fastcall UnitAutoRefuel_0042e194(int *param_1)
 // ==== TruckStartCycle_0042e1fe @ 0042e1fe
 /**
  * @brief TruckStartCycle — Starts a truck's mine–foundry cycle.
- * @details Starts the truck cycle: stop, go to the mine (link 4 via its cell), job 0x1a load; unless already loaded (+0x30 & 0x20) job 0x2a
- *          then deliver to the foundry and 5.
+ * @details Starts the truck cycle: stop, go to the mine (link 4 via its cell), job stack GoGoal (to the mine) → Exploit (0x2a) → GoBack
+ *          (0x1a, to the foundry) (job stack +0x38, last pushed runs first).
  * @category game
  * @original FUN_0042e1fe @ 0042e1fe (arsenal2_game_decomp.c)
  * @remake OpenRA.Mods.Arsenal/Traits/ArsenalCamion.cs
@@ -59403,8 +59409,8 @@ void __fastcall UnitEnteredHq_0042e3b6(int *param_1)
 // ==== UnitOrderCaptureHq_0042e42b @ 0042e42b
 /**
  * @brief UnitOrderCaptureHq — HQ capture order.
- * @details Orders a unit to take an HQ: destination = its entrance (vslot 0xb4), link 4 = HQ, jobs 0x3d approach → 0x3e enter → 0x3c/0x3f
- *          exit, then 1.
+ * @details Orders a unit to take an HQ: destination = its entrance (vslot 0xb4), link 4 = HQ, job stack GoDest → InitCapt (0x3f) → GoIn
+ *          (0x3c) → Capture (0x3e) → GoOut (0x3d) (job stack +0x38, last pushed runs first).
  * @param hq (param_1) HQ to take
  * @category game
  * @original FUN_0042e42b @ 0042e42b (arsenal2_game_decomp.c)
@@ -59615,7 +59621,8 @@ void __fastcall UnitProcessDeath_0042e63e(int *param_1)
 /**
  * @brief AircraftTaxiToBuilding — Aircraft taxis on the ground to a building.
  * @details A parked aircraft taxis to an own building instead of flying: leaves its group (vslot 0x25c), flags +0x30 |= 2, destination =
- *          the building's cell (vslot 0xc4), link 4 = building, jobs 0x44 → 0x41 → 0x40 → 1.
+ *          the building's cell (vslot 0xc4), link 4 = building, job stack GoDest → IniRepai (0x40) → GoRepair (0x41) → AlignRep (0x44) (job
+ *          stack +0x38, last pushed runs first).
  * @param building (param_1) destination building
  * @category game
  * @original FUN_0042e6e2 @ 0042e6e2 (arsenal2_game_decomp.c)
@@ -59688,7 +59695,7 @@ char * GetDestObject_0042e781(void)
 /**
  * @brief UnitGoToService — Sends a unit to repair/upgrade.
  * @details If it needs repair (vslot 0x344) or can be upgraded (vslot 0x90), goes to its service building (link 4, or the nearest own one
- *          of its vslot 0xac type: 1 factory, 3 shipyard, 4 airfield) and enters (job 0x44).
+ *          of its vslot 0xac type: 1 factory, 3 shipyard, 4 airfield) and enters (AlignRep 0x44).
  * @return true when it goes
  * @category game
  * @locals building ← local_c
@@ -85420,7 +85427,6 @@ void InitMapSurfaceState_00443e95(void)
  * @details Frees the two minimap surfaces (DAT_004ca49c and DAT_004ca498) and clears the pointers.
  * @category engine
  * @original FUN_00443f6f @ 00443f6f (arsenal2_game_decomp.c)
- * @remake OpenRA.Mods.Arsenal/Widgets/ArsenalConmutadorWidget.cs
  * @naming curated by hand; variables and summary: curated by Claude against the remake port
  */
 
@@ -85515,6 +85521,7 @@ void thunk_FUN_004599ac(void)
  * @category game
  * @uses g_uiToggleFlags_004d35ff — Stores UI toggle flags, specifically bit 5 which controls the mini-map visibility via the M key.
  * @original FUN_00443fce @ 00443fce (arsenal2_game_decomp.c)
+ * @remake OpenRA.Mods.Arsenal/Widgets/ArsenalConmutadorWidget.cs
  * @naming curated by hand; variables and summary: curated by Claude against the remake port
  */
 
@@ -96655,7 +96662,6 @@ void NetSendTwoBytes_0044d5bb(void)
  * @details Network command: sets or clears bit 0x80 of the game options DAT_004c835a.
  * @category game
  * @original FUN_0044d5d6 @ 0044d5d6 (arsenal2_game_decomp.c)
- * @remake OpenRA.Mods.Arsenal/Traits/ArsenalOpciones.cs
  * @naming curated by hand; variables and summary: curated by Claude against the remake port
  */
 
@@ -118492,7 +118498,6 @@ void __cdecl CitationRemoveTop_0045d6c5(char count)
  * @category game
  * @locals citation ← piVar4
  * @original FUN_0045d6ed @ 0045d6ed (arsenal2_game_decomp.c)
- * @remake OpenArsenal.Logica/Puntuacion/Documento.cs, OpenArsenal.Logica/Puntuacion/MaquetaDocumento.cs, OpenRA.Mods.Arsenal/Widgets/ArsenalPapel.cs
  * @naming curated by hand; variables and summary: curated by Claude against the remake port
  */
 
@@ -119273,7 +119278,6 @@ void __fastcall DrawMedalWidget_0045df15(int *param_1)
  * @category game
  * @locals format ← pcVar1
  * @original FUN_0045dffe @ 0045dffe (arsenal2_game_decomp.c)
- * @remake OpenRA.Mods.Arsenal/Widgets/ArsenalPapel.cs
  * @naming curated by hand; variables and summary: curated by Claude against the remake port
  */
 
@@ -123127,7 +123131,7 @@ HouseInit_004611b3(void *this,undefined1 param_1,undefined1 param_2,undefined1 p
  *          pauses 60.
  * @category game
  * @original FUN_004611e1 @ 004611e1 (arsenal2_game_decomp.c)
- * @remake OpenArsenal.Logica/Economia/Recursos.cs, OpenArsenal.Logica/Unidades/Contaminacion.cs, OpenRA.Mods.Arsenal/Traits/ArsenalToxico.cs
+ * @remake OpenArsenal.Logica/Economia/Recursos.cs, OpenArsenal.Logica/Unidades/Contaminacion.cs, OpenRA.Mods.Arsenal/Traits/ArsenalRecursos.cs, OpenRA.Mods.Arsenal/Traits/ArsenalToxico.cs
  * @naming curated by hand; variables and summary: curated by Claude against the remake port
  */
 
@@ -123149,7 +123153,7 @@ void __fastcall HouseContaminate_004611e1(int *param_1)
  * @param scream (param_1) play the scream
  * @category game
  * @original FUN_00461202 @ 00461202 (arsenal2_game_decomp.c)
- * @remake OpenRA.Mods.Arsenal/Traits/ArsenalDiplomacia.cs, OpenRA.Mods.Arsenal/Traits/ArsenalRecursos.cs
+ * @remake OpenArsenal.Logica/Economia/Recursos.cs, OpenRA.Mods.Arsenal/Traits/ArsenalDiplomacia.cs, OpenRA.Mods.Arsenal/Traits/ArsenalRecursos.cs, OpenRA.Mods.Arsenal/Traits/ArsenalToxico.cs
  * @naming curated by hand; variables and summary: curated by Claude against the remake port
  */
 
@@ -129419,7 +129423,7 @@ void __fastcall UnitFirePrimaryWeapon_00466276(int *param_1)
  * @brief TankerCycleTick — Tanker cycle tick.
  * @details Tanker (type 0x13) tick when its cooldown +0x54 is 0: without refinery (link 10) it stops; with +0x70 == 0 it leaves its squad
  *          (unless a platform squad, category 6) and, with own fuel above capacity − 500, goes on (vslot 0x1bc), else refuels at the
- *          refinery (link 9, job 0x28).
+ *          refinery (link 9, the top job becomes Refuel 0x28).
  * @category game
  * @locals refinery ← local_8, squad ← local_c
  * @original FUN_00466302 @ 00466302 (arsenal2_game_decomp.c)
@@ -130583,7 +130587,7 @@ void __thiscall UnitStartBoarding_00467064(void *this,uint param_1)
 /**
  * @brief TransportGoUnloadAtPier — Sends a transport to unload at a pier.
  * @details Unless already heading there (vslot 0x494), sends the transport to unload at a pier: goal = the pier's front water cell, links
- *          1/2, and queues jobs 0x20, 0x24, 0x1e, 0x1c.
+ *          1/2, and job stack GoBoard (0x1c) → AlignBch (0x1e) → OpenDoor (0x24) → Launch (0x20) (job stack +0x38, last pushed runs first).
  * @param pier (param_1) pier cell
  * @category game
  * @locals front ← uVar3
@@ -130767,8 +130771,8 @@ void __thiscall UnitToggleFerryMode_0046726c(void *this,char param_1)
 // ==== TransportSetFerryMission_0046736c @ 0046736c
 /**
  * @brief TransportSetFerryMission — Gives a transport its ferry mission.
- * @details Ferry mission: stops, keeps pickup (var 5) and drop (var 6); to pick up → +0x33 |= 0x10, job 0x2f 'SetFerry1' to the pickup
- *          cell; to drop → +0x33 &= ~0x10, job 0x30 'SetFerry2' to the drop cell.
+ * @details Ferry mission: stops, keeps pickup (var 5) and drop (var 6); to pick up → +0x33 |= 0x10, job 0x2f BrdFerr1 ('SetFerry1') to the
+ *          pickup cell; to drop → +0x33 &= ~0x10, job 0x30 BrdFerr2 ('SetFerry2') to the drop cell.
  * @param pickup (param_1) pickup cell
  * @param drop (param_2) drop cell
  * @param toPickup (param_3) go to pick up
@@ -130964,8 +130968,8 @@ void __fastcall ProcessUnitGuardCommand_00467547(int *param_1)
 /**
  * @brief TransportIdle — Idle behaviour of a transport.
  * @details Transport vslot 0x398 (idle), after trying service (vslot 0x454): a CPU one tries a camp route (FUN_00467162); with a squad
- *          (link 0x12): if the squad crosses by sea (+0x33 & 0x20) waits for the assault (job 0x36), else returns within 4 of its water
- *          point (+0x7a); otherwise stays still (+0x33 |= 2).
+ *          (link 0x12): if the squad crosses by sea (+0x33 & 0x20) waits for the assault (job 0x36 WtAsslt), else returns within 4 of its
+ *          water point (+0x7a); otherwise stays still (+0x33 |= 2).
  * @category game
  * @locals squad ← local_8
  * @original FUN_004675f5 @ 004675f5 (arsenal2_game_decomp.c)
@@ -146908,7 +146912,7 @@ void __fastcall UpdateUnitPosition_00472bff(int *param_1)
  * @details Missile cart (H Bomb 15 / V2 16 / V1 17): goes to its launcher (link 3); if the launcher is loaded (+0x32 & 8) or cooling down
  *          (+0x54) it waits within 5 of it; within reach (vslot 0x168) fires its load at the launcher as a projectile (its weapon,
  *          FUN_004447fd), sets the launcher cooldown to 50 and is replaced by a new empty Cart (type 0x12) that takes its state, cell and
- *          place in the unit list; not in reach → moves to it (job 7); no launcher → stops.
+ *          place in the unit list; not in reach → moves to it (job 7 CloseObj); no launcher → stops.
  * @category game
  * @locals launcher ← local_8
  * @original FUN_00472ca4 @ 00472ca4 (arsenal2_game_decomp.c)
@@ -147240,9 +147244,9 @@ void __fastcall UnitInvokeVirtuals_00473075(int *param_1)
 /**
  * @brief GasTruckTick — Gas truck looks for units to refuel.
  * @details Gas truck: with fuel stock < 5000 does nothing (counter +0x4f = 0); if it needs fuel itself (vslot 0x9c) goes to refuel (job
- *          0x4a); otherwise, when its counter +0x4f is 0, walks the spiral around it (up to the ring in DAT_004c9890) for the first unit it
- *          may serve (vslot 0xa0) that is not a resupplier (vslot 0x54) and is in its zone (layer DAT_004ca1c4), and takes it (vslot 0x2c8)
- *          if it accepts orders; none → waits 50 ticks.
+ *          0x4a AutoFuel); otherwise, when its counter +0x4f is 0, walks the spiral around it (up to the ring in DAT_004c9890) for the
+ *          first unit it may serve (vslot 0xa0) that is not a resupplier (vslot 0x54) and is in its zone (layer DAT_004ca1c4), and takes it
+ *          (vslot 0x2c8) if it accepts orders; none → waits 50 ticks.
  * @return true when busy
  * @category game
  * @locals zone ← uVar3, spiralIndex ← uVar6, candidate ← piVar4
