@@ -50,7 +50,6 @@ El nombre es el del banco (ya es semántico y es lo que indexa `docs/tabla-armas
 | game | armas | macgun01 | 0.5-GA-Mac-Gun |
 | game | armas | macgun02 | 0.5-AG-Mac-Gun |
 | game | armas | macgun03 | 0.5-AA-Mac-Gun, 1in-AG-Mac-Gun, 1in-AA-Mac-Gun |
-| game | sin-identificar | macgun03__2 | — |
 | game | sin-identificar | nosound | — |
 | game | sin-identificar | ocean | — |
 | game | armas | rocket1 | Rocket-AirGnd, Rocket-AirAir |
@@ -72,14 +71,11 @@ El nombre es el del banco (ya es semántico y es lo que indexa `docs/tabla-armas
 | game | armas | torpedo | Bow-Torpedo, Aft-Torpedo |
 | game | motores | truck | Truck, Gas Truck, Fire Engine, DCA Truck |
 | menus | interfaz | blam | — |
-| menus | interfaz | blup01 | — |
 | menus | interfaz | blup03 | — |
 | menus | interfaz | blup05 | — |
 | menus | interfaz | blup08 | — |
 | menus | interfaz | blup10 | — |
-| menus | interfaz | blup11 | — |
 | menus | interfaz | blup12 | — |
-| menus | interfaz | blup14 | — |
 | menus | interfaz | catapult | — |
 | menus | sin-identificar | clic1 | — |
 | menus | sin-identificar | clic2 | — |
@@ -91,13 +87,6 @@ El nombre es el del banco (ya es semántico y es lo que indexa `docs/tabla-armas
 | menus | sin-identificar | london | — |
 | menus | interfaz | morse | — |
 | menus | sin-identificar | no sound | — |
-| menus | sin-identificar | no sound__2 | — |
-| menus | sin-identificar | no sound__3 | — |
-| menus | sin-identificar | no sound__4 | — |
-| menus | sin-identificar | no sound__5 | — |
-| menus | sin-identificar | no sound__6 | — |
-| menus | sin-identificar | no sound__7 | — |
-| menus | sin-identificar | no sound__8 | — |
 | menus | sin-identificar | paris | — |
 | menus | sin-identificar | pff01 | — |
 | menus | sin-identificar | pff02 | — |
@@ -115,6 +104,6 @@ El nombre es el del banco (ya es semántico y es lo que indexa `docs/tabla-armas
 
 El original empaqueta estos clips en más de un `.sbk`. Se conservan ambos: son el desempaquetado fiel.
 
-| wav | bancos | ¿contenido idéntico? |
-|---|---|---|
-| morse | menus, sound01 | sí |
+| wav | bancos | ¿contenido idéntico? | cómo quedan |
+|---|---|---|---|
+| morse | menus, sound01 | sí | se guardan como `morse--<banco>.wav` |
