@@ -1,6 +1,6 @@
 # arsenal2.adu
 
-> Generado por `herramientas/decodificar-addons.py` desde `../../source-addons/arsenal2.adu` — no editar a mano.
+> Generado por `herramientas/decodificar-addons.py` desde `arsenal2.adu` (a su lado) — no editar a mano.
 
 - **tipo**: manifiesto de lista
 - **tamaño**: 520 B (consumido EXACTO)

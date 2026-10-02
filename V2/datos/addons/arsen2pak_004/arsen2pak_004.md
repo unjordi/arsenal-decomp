@@ -1,6 +1,6 @@
 # arsen2pak_004.adu
 
-> Generado por `herramientas/decodificar-addons.py` desde `../../source-addons/arsen2pak_004.adu` — no editar a mano.
+> Generado por `herramientas/decodificar-addons.py` desde `arsen2pak_004.adu` (a su lado) — no editar a mano.
 
 - **tipo**: manifiesto de lista
 - **tamaño**: 19 B (consumido EXACTO)

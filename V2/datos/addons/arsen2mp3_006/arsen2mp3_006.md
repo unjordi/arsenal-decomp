@@ -1,6 +1,6 @@
 # arsen2mp3_006.adu
 
-> Generado por `herramientas/decodificar-addons.py` desde `../../source-addons/arsen2mp3_006.adu` — no editar a mano.
+> Generado por `herramientas/decodificar-addons.py` desde `arsen2mp3_006.adu` (a su lado) — no editar a mano.
 
 - **tipo**: manifiesto de lista
 - **tamaño**: 27 B (consumido EXACTO)

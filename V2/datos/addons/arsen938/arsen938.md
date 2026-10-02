@@ -1,6 +1,6 @@
 # arsen938.tmp
 
-> Generado por `herramientas/decodificar-addons.py` desde `../../source-addons/arsen938.tmp` — no editar a mano.
+> Generado por `herramientas/decodificar-addons.py` desde `arsen938.tmp` (a su lado) — no editar a mano.
 
 - **tipo**: manifiesto de lista
 - **tamaño**: 176 B (consumido EXACTO)
