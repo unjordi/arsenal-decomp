@@ -36,9 +36,9 @@ El nombre es el del banco (ya es semántico y es lo que indexa `docs/tabla-armas
 | game | efectos | fire01 | — |
 | game | efectos | fire02 | — |
 | game | efectos | firesiren | — |
-| game | sin-identificar | flame | — |
-| game | sin-identificar | gastruck | — |
-| game | sin-identificar | gun01 | — |
+| game | efectos | flame | — |
+| game | motores | gastruck | — |
+| game | armas | gun01 | — |
 | game | armas | gun02 | 3in-Gun |
 | game | armas | gun03 | 1.5in-Gun, 2in-Gun |
 | game | armas | gun04 | 3.5in-Gun |
@@ -46,27 +46,28 @@ El nombre es el del banco (ya es semántico y es lo que indexa `docs/tabla-armas
 | game | armas | gun06 | 12in-Navy-Gun, 24in-Artill-Gun |
 | game | motores | jeep | Jeep, H Bomb, V2, V1, Cart |
 | game | motores | jet | Air JetFight |
-| game | sin-identificar | jetoff | — |
+| game | motores | jetoff | — |
 | game | armas | macgun01 | 0.5-GA-Mac-Gun |
 | game | armas | macgun02 | 0.5-AG-Mac-Gun |
 | game | armas | macgun03 | 0.5-AA-Mac-Gun, 1in-AG-Mac-Gun, 1in-AA-Mac-Gun |
-| game | sin-identificar | nosound | — |
-| game | sin-identificar | ocean | — |
+| game | armas | macgun03__2 | — |
+| game | vacios | nosound | — |
+| game | ambiente | ocean | — |
 | game | armas | rocket1 | Rocket-AirGnd, Rocket-AirAir |
 | game | armas | rocket2 | Flying-Bomb, Toxic-Missile |
 | game | armas | rocket4 | Rocket-GndGnd, Rocket-SeaGnd |
 | game | alarmas | scream | — |
-| game | sin-identificar | shiphorn | — |
+| game | alarmas | shiphorn | — |
 | game | alarmas | siren2 | — |
 | game | alarmas | sonar | — |
-| game | sin-identificar | subalarm | — |
+| game | alarmas | subalarm | — |
 | game | motores | subunder | Sub dived |
-| game | sin-identificar | takeoff01 | — |
+| game | motores | takeoff01 | — |
 | game | motores | tank1 | Lite Tank, Tank, Rocket Lnchr |
 | game | motores | tank2 | Artillery, Medium Tank |
 | game | motores | tank3 | Hv Artillery, Heavy Tank |
 | game | motores | tank4 | Super Tank, Toxic Lnchr |
-| game | sin-identificar | tarmac | — |
+| game | motores | tarmac | — |
 | game | motores | taxiing01 | Hovercraft, Plane, Fighter, Navy Fighter, Tac Bomber, SuperFighter, Navy Bomber, Heavy Bomber, Fortress, Kamikaze, Jet Fighter |
 | game | armas | torpedo | Bow-Torpedo, Aft-Torpedo |
 | game | motores | truck | Truck, Gas Truck, Fire Engine, DCA Truck |
@@ -77,28 +78,35 @@ El nombre es el del banco (ya es semántico y es lo que indexa `docs/tabla-armas
 | menus | interfaz | blup10 | — |
 | menus | interfaz | blup12 | — |
 | menus | interfaz | catapult | — |
-| menus | sin-identificar | clic1 | — |
-| menus | sin-identificar | clic2 | — |
-| menus | sin-identificar | clic3 | — |
-| menus | sin-identificar | eisenhower | — |
+| menus | interfaz | clic1 | — |
+| menus | interfaz | clic2 | — |
+| menus | interfaz | clic3 | — |
+| menus | interfaz | eisenhower | — |
 | menus | efectos | explo11 | — |
 | menus | efectos | explo12 | — |
-| menus | sin-identificar | fff | — |
-| menus | sin-identificar | london | — |
+| menus | efectos | fff | — |
+| menus | interfaz | london | — |
 | menus | interfaz | morse | — |
-| menus | sin-identificar | no sound | — |
-| menus | sin-identificar | paris | — |
-| menus | sin-identificar | pff01 | — |
-| menus | sin-identificar | pff02 | — |
-| menus | sin-identificar | piup | — |
-| menus | sin-identificar | tuning | — |
-| menus | sin-identificar | typewriter | — |
+| menus | vacios | no sound | — |
+| menus | vacios | no sound__2 | — |
+| menus | vacios | no sound__3 | — |
+| menus | vacios | no sound__4 | — |
+| menus | vacios | no sound__5 | — |
+| menus | vacios | no sound__6 | — |
+| menus | vacios | no sound__7 | — |
+| menus | vacios | no sound__8 | — |
+| menus | interfaz | paris | — |
+| menus | efectos | pff01 | — |
+| menus | efectos | pff02 | — |
+| menus | interfaz | piup | — |
+| menus | motores | tuning | — |
+| menus | interfaz | typewriter | — |
 | sound01 | interfaz | camera | — |
 | sound01 | ambiente | crowdcheer | — |
 | sound01 | ambiente | crowdmad | — |
 | sound01 | ambiente | crowdooo | — |
 | sound01 | interfaz | morse | — |
-| sound01 | sin-identificar | pneu02 | — |
+| sound01 | efectos | pneu02 | — |
 
 ## El mismo clip en varios bancos (duplicación del JUEGO, no del repo)
 
