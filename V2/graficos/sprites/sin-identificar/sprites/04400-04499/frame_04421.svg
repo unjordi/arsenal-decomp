@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 6" width="23" height="6" shape-rendering="crispEdges">
+<!-- frame_04421.png · 36 regiones · suavizado 0 -->
+<path fill="#130000" d="M1 1V2H0V1V0H1Z"/>
+<path fill="#b76313" d="M1 0H2V1H1Z"/>
+<path fill="#cf5353" d="M2 0H3V1H2Z"/>
+<path fill="#eb973f" d="M3 0H4V1H3ZM1 1H2V2H1ZM21 1H22V2H21ZM3 2H4V3H3ZM20 3H21V4H20Z"/>
+<path fill="#734b23" d="M4 0H5V1H4ZM17 5H18V6H17Z"/>
+<path fill="#9f530b" d="M5 0H6V1H5ZM2 2H3V3H2Z"/>
+<path fill="#a38b57" d="M6 0H7V1H6Z"/>
+<path fill="#f3c383" d="M7 0H8V1H7ZM9 0H10V1H9ZM13 0H14H15V1H14H13ZM3 1H4V2H3H2V1ZM20 1H21V2H20ZM5 2H6V3H5ZM13 4H14H15V5H14H13ZM19 4H20V5H19Z"/>
+<path fill="#f0deac" d="M8 0H9V1H8ZM19 3H20V4H19Z"/>
+<path fill="#f5e8b8" d="M10 0H11V1H10ZM5 1H6V2H5Z"/>
+<path fill="#f8efc6" d="M11 0H12V1H11ZM9 3H10V4H9Z"/>
+<path fill="#f7d7a7" d="M12 0H13V1H12ZM6 2H7V3H6ZM8 3H9V4H8ZM15 4H16V5H15Z"/>
+<path fill="#bd9e6d" d="M15 0H16V1H15Z"/>
+<path fill="#7e6545" d="M16 0H17V1H16Z"/>
+<path fill="#835b2f" d="M17 0H18V1H17Z"/>
+<path fill="#ad9063" d="M18 0H19V1H18Z"/>
+<path fill="#efab5f" d="M19 0H20V1H19ZM4 1H5V2H4ZM20 2H21V3H20ZM7 3H8V4H7ZM12 4H13V5H12ZM19 5H20V6H19Z"/>
+<path fill="#93733f" d="M20 0H21V1H20ZM11 4H12V5H11ZM18 5H19V6H18Z"/>
+<path fill="#831717" d="M21 0H22V1H21ZM21 3H22V4H21Z"/>
+<path fill="#fcfcc8" d="M6 1H7V2H6Z"/>
+<path fill="#fffff3" d="M7 1H8V2H7ZM17 1H18H19V2V3V4H18V3V2H17V3V4H16H15H14V3H15V2V1H16Z"/>
+<path fill="#ffffff" d="M11 1H12H13H14H15V2V3H14V4H13H12V3H11H10H9H8V2V1H9H10ZM17 2H18V3V4H17V3Z"/>
+<path fill="#fefde2" d="M20 2V3H19V2V1H20ZM7 2H8V3H7ZM10 3H11V4H10ZM17 4H18V5H17Z"/>
+<path fill="#270000" d="M22 1H23V2H22ZM5 3H6V4H5ZM21 4H22V5H21Z"/>
+<path fill="#170b00" d="M1 2H2V3H1Z"/>
+<path fill="#af2f2f" d="M4 2H5V3H4Z"/>
+<path fill="#c73f3f" d="M21 2H22V3H21Z"/>
+<path fill="#573713" d="M6 3H7V4H6Z"/>
+<path fill="#fffbf3" d="M11 3H12V4H11Z"/>
+<path fill="#6b0f0f" d="M9 4H10V5H9Z"/>
+<path fill="#733b07" d="M10 4H11V5H10Z"/>
+<path fill="#fbf6d4" d="M16 4H17V5H16Z"/>
+<path fill="#fbe7cb" d="M18 4H19V5H18Z"/>
+<path fill="#e77f1f" d="M20 4H21V5H20Z"/>
+<path fill="#2f1b00" d="M16 5H17V6H16Z"/>
+<path fill="#972323" d="M20 5H21V6H20Z"/>
+</svg>

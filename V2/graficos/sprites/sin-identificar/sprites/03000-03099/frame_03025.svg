@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 12" width="10" height="12" shape-rendering="crispEdges">
+<!-- frame_03025.png · 5 regiones · suavizado 0 -->
+<path fill="#2050b0" d="M8 0H9V1H8ZM7 2H8V3H7ZM2 3H3V4H2ZM6 3H7V4H6ZM1 4H2V5H1Z"/>
+<path fill="#1d49a1" d="M8 1H9V2H8ZM3 8H4V9H3ZM2 10H3V11H2Z"/>
+<path fill="#1a4292" d="M8 4V5H7V4V3H8V2H9V1H10V2V3V4H9ZM2 4H3V3H4V4V5H5V6H4V7H3H2H1H0V6H1V5H2ZM5 11H4V12H3H2V11H3V10V9H4V8H5V7H6V8V9V10V11Z"/>
+<path fill="#183c84" d="M6 4H7V5H6Z"/>
+<path fill="#2256be" d="M4 7H5V8H4Z"/>
+</svg>

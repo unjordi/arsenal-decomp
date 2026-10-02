@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 16" width="4" height="16" shape-rendering="crispEdges">
+<!-- 2_sahara_00040.png · 10 regiones · suavizado 0 -->
+<path fill="#2e2e2e" d="M0 0H1V1H0ZM3 9H4V10H3ZM1 12H2V13H1ZM1 14H2V15H1Z"/>
+<path fill="#0a1906" d="M1 0H2V1H1Z"/>
+<path fill="#242424" d="M4 4V5V6V7V8H3V9V10H4V11V12V13V14V15H3V16H2H1V15H2V14H1V13H2V12H1V11V10V9V8V7V6V5V4V3V2V1H2V0H3H4V1V2V3Z"/>
+<path fill="#304026" d="M0 1H1V2H0ZM1 12V13V14V15H0V14V13V12V11H1Z"/>
+<path fill="#93733f" d="M0 2H1V3H0Z"/>
+<path fill="#637256" d="M1 7V8V9H0V8V7V6V5V4V3H1V4V5V6Z"/>
+<path fill="#2c2c2c" d="M3 8H4V9H3Z"/>
+<path fill="#526246" d="M0 9H1V10H0Z"/>
+<path fill="#415136" d="M0 10H1V11H0Z"/>
+<path fill="#1d1d1d" d="M3 15H4V16H3Z"/>
+</svg>

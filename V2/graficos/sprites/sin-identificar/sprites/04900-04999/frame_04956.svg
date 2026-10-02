@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 14" width="3" height="14" shape-rendering="crispEdges">
+<!-- frame_04956.png · 13 regiones · suavizado 0 -->
+<path fill="#102858" d="M0 0H1V1H0ZM2 0H3V1V2V3H2V2V1Z"/>
+<path fill="#0d2149" d="M0 1H1V2V3V4V5H0V4V3V2ZM2 3H3V4H2ZM0 10H1V11V12H0V11Z"/>
+<path fill="#e4e4e4" d="M2 2V3V4V5V6V7H1V6V5V4V3V2V1H2Z"/>
+<path fill="#050d1d" d="M2 4H3V5V6V7H2V6V5Z"/>
+<path fill="#4c4c4c" d="M1 7V8H0V7V6V5H1V6Z"/>
+<path fill="#2864dc" d="M1 7H2V8V9H1V8Z"/>
+<path fill="#242424" d="M2 7H3V8H2Z"/>
+<path fill="#444444" d="M0 8H1V9V10H0V9ZM2 9H3V10H2Z"/>
+<path fill="#343434" d="M2 8H3V9H2Z"/>
+<path fill="#2256be" d="M1 9H2V10H1Z"/>
+<path fill="#183c84" d="M2 11V12V13H1V12V11V10H2Z"/>
+<path fill="#0a1a3a" d="M2 10H3V11V12V13H2V12V11ZM0 12H1V13H0Z"/>
+<path fill="#08142c" d="M0 13H1H2H3V14H2H1H0Z"/>
+</svg>

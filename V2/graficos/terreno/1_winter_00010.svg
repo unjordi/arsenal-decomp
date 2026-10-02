@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 6" width="4" height="6" shape-rendering="crispEdges">
+<!-- 1_winter_00010.png · 11 regiones · suavizado 0 -->
+<path fill="#848484" d="M1 0H2V1H1ZM2 3H3H4V4H3V5H2V4Z"/>
+<path fill="#444444" d="M2 0H3V1H2Z"/>
+<path fill="#7c7c7c" d="M3 0H4V1H3ZM1 5H2V6H1Z"/>
+<path fill="#bcbcbc" d="M1 1H2V2H1Z"/>
+<path fill="#747474" d="M2 1H3V2H2ZM3 4H4V5H3ZM2 5H3V6H2Z"/>
+<path fill="#b4b4b4" d="M1 2H2V3H1Z"/>
+<path fill="#949494" d="M2 2H3V3H2Z"/>
+<path fill="#a4a4a4" d="M3 2H4V3H3Z"/>
+<path fill="#9c9c9c" d="M1 3H2V4V5H1V4Z"/>
+<path fill="#c4c4c4" d="M0 4H1V5H0Z"/>
+<path fill="#6c6c6c" d="M3 5H4V6H3Z"/>
+</svg>
