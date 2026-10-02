@@ -1,6 +1,12 @@
 # Sprites de ARSENAL V2, organizados
 
-Generado por `herramientas/organizar-sprites.py` (no editar a mano). PNG RGBA con transparencia; cada
+> **Árbol GENERADO — no editar a mano.** La fuente son los bancos de `../source-sprites/`.
+> Regenerar: `python3 herramientas/organizar-sprites.py --limpiar`
+
+Se versionan a propósito aunque sean reproducibles: un `.rgb`/`.pak` no lo abre ni GitHub ni una
+persona, y el valor de tenerlos aquí es poder VER el arte sin herramientas (decisión 2026-10-02).
+
+PNG RGBA con transparencia; cada
 carpeta trae su `<nombre>_hoja.png` (hoja de contactos) para ver el conjunto de un vistazo.
 
 Las categorías salen del propio juego: `dominio~` de `docs/tabla-unidades.csv` (1 tierra · 2 mar · 3 aire ·

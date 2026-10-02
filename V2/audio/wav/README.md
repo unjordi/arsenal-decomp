@@ -1,6 +1,8 @@
 # Audio de ARSENAL V2, organizado IN SITU
 
-Generado por `herramientas/organizar-sonidos.py` (idempotente; no editar a mano).
+> **Orden GENERADO — no editar a mano.** Regenerar: `python3 herramientas/organizar-sonidos.py`
+> (es idempotente: si `sbk.py` vuelve a desempaquetar plano, los recoloca).
+
 La FUENTE son los `.sbk` de `../source-audios/`; esto es su desempaquetado, ordenado por categoría. **No hay copias**: cada wav está en un solo lugar.
 
 El nombre es el del banco (ya es semántico y es lo que indexa `docs/tabla-armas.csv`). Quién lo usa va en esta tabla, porque varios lo comparten.
