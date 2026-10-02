@@ -51,7 +51,7 @@ El nombre es el del banco (ya es semántico y es lo que indexa `docs/tabla-armas
 | game | armas | macgun02 | 0.5-AG-Mac-Gun |
 | game | armas | macgun03 | 0.5-AA-Mac-Gun, 1in-AG-Mac-Gun, 1in-AA-Mac-Gun |
 | game | armas | macgun03__2 | — |
-| game | vacios | nosound | — |
+| game | slots-vacios-del-original | nosound | — |
 | game | ambiente | ocean | — |
 | game | armas | rocket1 | Rocket-AirGnd, Rocket-AirAir |
 | game | armas | rocket2 | Flying-Bomb, Toxic-Missile |
@@ -87,14 +87,14 @@ El nombre es el del banco (ya es semántico y es lo que indexa `docs/tabla-armas
 | menus | efectos | fff | — |
 | menus | interfaz | london | — |
 | menus | interfaz | morse | — |
-| menus | vacios | no sound | — |
-| menus | vacios | no sound__2 | — |
-| menus | vacios | no sound__3 | — |
-| menus | vacios | no sound__4 | — |
-| menus | vacios | no sound__5 | — |
-| menus | vacios | no sound__6 | — |
-| menus | vacios | no sound__7 | — |
-| menus | vacios | no sound__8 | — |
+| menus | slots-vacios-del-original | no sound | — |
+| menus | slots-vacios-del-original | no sound__2 | — |
+| menus | slots-vacios-del-original | no sound__3 | — |
+| menus | slots-vacios-del-original | no sound__4 | — |
+| menus | slots-vacios-del-original | no sound__5 | — |
+| menus | slots-vacios-del-original | no sound__6 | — |
+| menus | slots-vacios-del-original | no sound__7 | — |
+| menus | slots-vacios-del-original | no sound__8 | — |
 | menus | interfaz | paris | — |
 | menus | efectos | pff01 | — |
 | menus | efectos | pff02 | — |
