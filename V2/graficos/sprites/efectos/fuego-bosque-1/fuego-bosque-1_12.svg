@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6" width="6" height="6" shape-rendering="crispEdges">
+<!-- fuego-bosque-1_12.png · 12 regiones · suavizado 0 -->
+<path fill="#530707" d="M3 0H4V1H3ZM1 2H2V3H1Z"/>
+<path fill="#270000" d="M2 1H3V2H2Z"/>
+<path fill="#972323" d="M3 1H4V2H3ZM2 2H3V3H2ZM1 3H2V4H1ZM5 5H6V6H5Z"/>
+<path fill="#000000" d="M4 1H5V2H4Z"/>
+<path fill="#e77f1f" d="M3 2H4H5V3H4H3ZM4 5H5V6H4Z"/>
+<path fill="#c73f3f" d="M2 3H3V4H2ZM1 5H2V6H1ZM3 5H4V6H3Z"/>
+<path fill="#efab5f" d="M3 3H4V4H3ZM2 4H3V5H2H1V4Z"/>
+<path fill="#eb973f" d="M4 3H5V4H4Z"/>
+<path fill="#831717" d="M0 4H1V5H0ZM2 5H3V6H2Z"/>
+<path fill="#f3ef77" d="M3 4H4V5H3Z"/>
+<path fill="#fcd054" d="M4 4H5V5H4Z"/>
+<path fill="#6b0f0f" d="M5 4H6V5H5ZM0 5H1V6H0Z"/>
+</svg>

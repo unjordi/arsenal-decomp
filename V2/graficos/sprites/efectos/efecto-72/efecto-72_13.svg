@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 8" width="7" height="8" shape-rendering="crispEdges">
+<!-- efecto-72_13.png · 5 regiones · suavizado 0 -->
+<path fill="#bcbcbc" d="M1 2H2H3V1V0H4V1H5V2H4V3H3H2H1ZM5 3H6H7V4H6H5ZM0 4H1V5H0ZM5 5H6V6V7H5V6ZM1 6H2V7H1ZM2 7H3V8H2ZM4 7H5V8H4Z"/>
+<path fill="#c4c4c4" d="M1 3H2V4V5V6H1V5V4ZM4 3H5V4H4ZM5 4H6V5H5ZM4 6H5V7H4ZM3 7H4V8H3Z"/>
+<path fill="#cccccc" d="M2 3H3V4H2ZM4 4H5V5V6H4V5ZM2 6H3V7H2Z"/>
+<path fill="#d4d4d4" d="M2 4H3V3H4V4V5H3V6H2V5ZM3 6H4V7H3Z"/>
+<path fill="#dcdcdc" d="M3 5H4V6H3Z"/>
+</svg>

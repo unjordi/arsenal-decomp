@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 4" width="4" height="4" shape-rendering="crispEdges">
+<!-- efecto-73_00.png · 9 regiones · suavizado 0 -->
+<path fill="#000000" d="M1 0H2V1H1ZM0 1H1V2H0Z"/>
+<path fill="#101010" d="M2 0H3V1H2Z"/>
+<path fill="#343434" d="M1 1H2V2H1ZM1 3H2V4H1Z"/>
+<path fill="#8c8c8c" d="M2 1H3V2H2Z"/>
+<path fill="#4c4c4c" d="M3 1H4V2H3Z"/>
+<path fill="#070f07" d="M0 2H1V3H0Z"/>
+<path fill="#2c2c2c" d="M1 2H2V3H1ZM2 3H3V4H2Z"/>
+<path fill="#7c7c7c" d="M2 2H3V3H2Z"/>
+<path fill="#444444" d="M3 2H4V3H3Z"/>
+</svg>

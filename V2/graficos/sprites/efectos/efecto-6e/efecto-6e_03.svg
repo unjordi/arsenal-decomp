@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 20" width="6" height="20" shape-rendering="crispEdges">
+<!-- efecto-6e_03.png · 21 regiones · suavizado 0 -->
+<path fill="#070f07" d="M2 0H3V1H2ZM3 1H4V2V3V4V5H3V4V3V2ZM1 3H2V4V5V6H1V5V4Z"/>
+<path fill="#101010" d="M2 1H3V2V3H2V2ZM3 5H4V6H3ZM1 6H2V7V8V9H1V8V7ZM1 18H2V19H1Z"/>
+<path fill="#1c1c1c" d="M2 3H3V4H2ZM3 6H4V7H3ZM1 9H2V10H1Z"/>
+<path fill="#2c2c2c" d="M2 4H3V5H2ZM3 8H4V9H3ZM3 11H4V12H3ZM1 13H2V14H1ZM4 16H5V17H4Z"/>
+<path fill="#343434" d="M2 5H3V6H2ZM3 9H4V10V11H3V10ZM3 17H4V18H3Z"/>
+<path fill="#444444" d="M2 6H3V7H2ZM5 14H6V15H5Z"/>
+<path fill="#545454" d="M2 7H3V8H2ZM1 10H2V11H1ZM2 14H3V15H2Z"/>
+<path fill="#242424" d="M3 7H4V8H3ZM1 11H2V12V13H1V12ZM3 12H4V13V14H3V13ZM5 13H6V14H5ZM0 17H1V18H0ZM3 19H4V20H3Z"/>
+<path fill="#646464" d="M2 8H3V9H2ZM0 9H1V10H0ZM1 14H2V15H1ZM3 14H4V15H3ZM2 19H3V20H2Z"/>
+<path fill="#747474" d="M2 9H3V10H2ZM4 14H5V15H4ZM0 16H1V17H0Z"/>
+<path fill="#7c7c7c" d="M2 10H3V11H2Z"/>
+<path fill="#8c8c8c" d="M2 11H3V12H2Z"/>
+<path fill="#949494" d="M2 12H3V13H2Z"/>
+<path fill="#a4a4a4" d="M2 13H3V14H2Z"/>
+<path fill="#b4b4b4" d="M1 15H2V16H1Z"/>
+<path fill="#bcbcbc" d="M2 15H3V16H2Z"/>
+<path fill="#d4d4d4" d="M3 15H4V16V17H3V16ZM1 17H2V18H1Z"/>
+<path fill="#4c4c4c" d="M4 15H5V16H4ZM2 18H3V19H2Z"/>
+<path fill="#e4e4e4" d="M1 16H2V17H1Z"/>
+<path fill="#cccccc" d="M2 16H3V17H2Z"/>
+<path fill="#9c9c9c" d="M2 17H3V18H2Z"/>
+</svg>
