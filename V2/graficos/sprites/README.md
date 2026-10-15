@@ -13,174 +13,253 @@ Las categorías salen del propio juego: `dominio~` de `docs/tabla-unidades.csv` 
 4 defensa fija · 0 carga) y los edificios de `docs/tabla-edificios.csv`. El mapa frame→nombre se lee de
 `remake/openra-preparar.sh` y de los dicts de `herramientas/openra-export.py`.
 
-| categoría | nombre | banco | primer frame | frames |
-|---|---|---|---:|---:|
-| defensas | battery | sprites | 1412 | 16 |
-| defensas | flak | sprites | 1428 | 16 |
-| defensas | rocket-batry | sprites | 2354 | 16 |
-| defensas | super-gun | sprites | 4216 | 16 |
-| defensas | v1-ramp | sprites | 2402 | 16 |
-| edificios | airfield | 0_irland | 104 | 2 |
-| edificios | base-hq | 0_irland | 122 | 2 |
-| edificios | bunker | 0_irland | 114 | 1 |
-| edificios | factory | 0_irland | 92 | 2 |
-| edificios | furnace | 0_irland | 94 | 2 |
-| edificios | house | 0_irland | 90 | 2 |
-| edificios | mine | 0_irland | 134 | 2 |
-| edificios | platform | 0_irland | 132 | 2 |
-| edificios | radarblock | 0_irland | 116 | 2 |
-| edificios | refinery | 0_irland | 106 | 2 |
-| edificios | rotonde | 0_irland | 118 | 2 |
-| edificios | shipyard | 0_irland | 96 | 1 |
-| edificios | techcenter | 0_irland | 120 | 2 |
-| efectos | avion-portaaviones-1 | sprites | 1312 | 32 |
-| efectos | avion-portaaviones-2 | sprites | 3452 | 32 |
-| efectos | bandera | sprites | 2648 | 24 |
-| efectos | bandera-obra | sprites | 2988 | 16 |
-| efectos | barco-en-grada-07 | sprites | 481 | 3 |
-| efectos | barco-en-grada-08 | sprites | 484 | 3 |
-| efectos | barco-en-grada-09 | sprites | 487 | 3 |
-| efectos | barco-en-grada-0a | sprites | 490 | 3 |
-| efectos | barco-en-grada-0b | sprites | 493 | 3 |
-| efectos | barco-en-grada-0c | sprites | 496 | 3 |
-| efectos | barco-en-grada-0d | sprites | 499 | 3 |
-| efectos | barco-en-grada-0e | sprites | 502 | 3 |
-| efectos | barco-en-grada-0f | sprites | 505 | 3 |
-| efectos | barco-en-grada-10 | sprites | 508 | 3 |
-| efectos | barco-en-grada-11 | sprites | 511 | 3 |
-| efectos | barco-en-grada-12 | sprites | 514 | 3 |
-| efectos | barco-en-grada-13 | sprites | 517 | 3 |
-| efectos | barco-en-grada-14 | sprites | 520 | 3 |
-| efectos | columna-agua | sprites | 3428 | 24 |
-| efectos | descarga-camion | sprites | 1216 | 7 |
-| efectos | efecto-00 | sprites | 433 | 3 |
-| efectos | efecto-01 | sprites | 4720 | 16 |
-| efectos | efecto-15 | sprites | 2292 | 1 |
-| efectos | efecto-16 | sprites | 2293 | 1 |
-| efectos | efecto-17 | sprites | 2294 | 1 |
-| efectos | efecto-18 | sprites | 2295 | 1 |
-| efectos | efecto-19 | sprites | 2296 | 1 |
-| efectos | efecto-1a | sprites | 2297 | 1 |
-| efectos | efecto-1b | sprites | 2298 | 1 |
-| efectos | efecto-1c | sprites | 2299 | 1 |
-| efectos | efecto-1d | sprites | 2300 | 1 |
-| efectos | efecto-1e | sprites | 2301 | 1 |
-| efectos | efecto-1f | sprites | 2302 | 1 |
-| efectos | efecto-20 | sprites | 2303 | 1 |
-| efectos | efecto-21 | sprites | 2304 | 1 |
-| efectos | efecto-22 | sprites | 2305 | 1 |
-| efectos | efecto-27 | sprites | 216 | 24 |
-| efectos | efecto-2a | sprites | 4880 | 16 |
-| efectos | efecto-2b | sprites | 3956 | 32 |
-| efectos | efecto-2c | sprites | 376 | 16 |
-| efectos | efecto-33 | sprites | 2696 | 24 |
-| efectos | efecto-34 | sprites | 2672 | 24 |
-| efectos | efecto-35 | sprites | 2624 | 24 |
-| efectos | efecto-36 | sprites | 2600 | 24 |
-| efectos | efecto-4c | sprites | 432 | 1 |
-| efectos | efecto-6e | sprites | 2956 | 8 |
-| efectos | efecto-70 | sprites | 288 | 24 |
-| efectos | efecto-72 | sprites | 3540 | 16 |
-| efectos | efecto-73 | sprites | 3556 | 16 |
-| efectos | efecto-74 | sprites | 3700 | 16 |
-| efectos | efecto-77 | sprites | 3484 | 32 |
-| efectos | efecto-7b | sprites | 3884 | 24 |
-| efectos | efecto-7c | sprites | 3860 | 24 |
-| efectos | efecto-7d | sprites | 555 | 16 |
-| efectos | efecto-7e | sprites | 3388 | 16 |
-| efectos | efecto-87 | sprites | 5760 | 3 |
-| efectos | efecto-88 | sprites | 5764 | 3 |
-| efectos | efecto-89 | sprites | 5763 | 1 |
-| efectos | efecto-8a | sprites | 5767 | 1 |
-| efectos | efecto-8b | sprites | 5768 | 3 |
-| efectos | efecto-8c | sprites | 5772 | 3 |
-| efectos | efecto-8d | sprites | 5771 | 1 |
-| efectos | efecto-8e | sprites | 5775 | 1 |
-| efectos | efecto-8f | sprites | 5776 | 3 |
-| efectos | efecto-90 | sprites | 5780 | 3 |
-| efectos | efecto-91 | sprites | 5779 | 1 |
-| efectos | efecto-92 | sprites | 5783 | 1 |
-| efectos | explosion | sprites | 256 | 32 |
-| efectos | explosion-humo | sprites | 539 | 16 |
-| efectos | explosion-muerte | sprites | 523 | 8 |
-| efectos | explosion-muerte-2 | sprites | 368 | 8 |
-| efectos | fuego-bosque-1 | sprites | 3716 | 16 |
-| efectos | fuego-bosque-2 | sprites | 3732 | 16 |
-| efectos | humareda-1 | sprites | 3748 | 32 |
-| efectos | humareda-2 | sprites | 3780 | 32 |
-| efectos | humareda-3 | sprites | 3812 | 32 |
-| efectos | humo-a | sprites | 5024 | 32 |
-| efectos | humo-b | sprites | 5056 | 32 |
-| efectos | humo-c | sprites | 5088 | 32 |
-| efectos | humo-rodaje | sprites | 3404 | 24 |
-| efectos | llama | sprites | 2578 | 21 |
-| efectos | llama-132 | sprites | 5136 | 16 |
-| efectos | llama-133 | sprites | 5120 | 16 |
-| efectos | llama-134 | sprites | 5152 | 16 |
-| efectos | parte-aerodromo | sprites | 424 | 8 |
-| efectos | parte-fabrica-1 | sprites | 1260 | 4 |
-| efectos | parte-fabrica-2 | sprites | 2276 | 16 |
-| efectos | parte-fundicion | sprites | 531 | 8 |
-| efectos | parte-fundicion-2 | sprites | 2370 | 8 |
-| efectos | parte-mina | sprites | 579 | 5 |
-| efectos | parte-mina-2 | sprites | 571 | 8 |
-| efectos | parte-radar | sprites | 4736 | 16 |
-| efectos | parte-tech-center | sprites | 584 | 16 |
-| efectos | planta-arde-1 | sprites | 2848 | 22 |
-| efectos | planta-arde-2 | sprites | 2870 | 22 |
-| efectos | plato-rotonda | sprites | 2418 | 16 |
-| efectos | polvo | sprites | 2964 | 24 |
-| sin-identificar | grua-5 | sprites | 2306 | 24 |
-| sin-identificar | grua-6 | sprites | 2330 | 24 |
-| sin-identificar | toxico | sprites | 2378 | 1 |
-| unidades-aire | air-fighter | sprites | 1524 | 16 |
-| unidades-aire | air-fortress | sprites | 1652 | 16 |
-| unidades-aire | air-hvybombr | sprites | 1000 | 16 |
-| unidades-aire | air-jetfight | sprites | 5328 | 16 |
-| unidades-aire | air-kamikaze | sprites | 1780 | 16 |
-| unidades-aire | air-navbombr | sprites | 2036 | 16 |
-| unidades-aire | air-navfight | sprites | 744 | 16 |
-| unidades-aire | air-plane | sprites | 2164 | 16 |
-| unidades-aire | air-supfight | sprites | 1908 | 16 |
-| unidades-aire | air-tacbombr | sprites | 872 | 16 |
-| unidades-aire | fighter | sprites | 1620 | 16 |
-| unidades-aire | fortress | sprites | 1748 | 16 |
-| unidades-aire | heavy-bomber | sprites | 1096 | 16 |
-| unidades-aire | jet-fighter | sprites | 5424 | 16 |
-| unidades-aire | kamikaze | sprites | 1876 | 16 |
-| unidades-aire | navy-bomber | sprites | 2132 | 16 |
-| unidades-aire | navy-fighter | sprites | 840 | 16 |
-| unidades-aire | plane | sprites | 2260 | 16 |
-| unidades-aire | superfighter | sprites | 2004 | 16 |
-| unidades-aire | tac-bomber | sprites | 968 | 16 |
-| unidades-carga | h-bomb | sprites | 3844 | 16 |
-| unidades-mar | battleship | sprites | 1264 | 16 |
-| unidades-mar | carrier | sprites | 1296 | 16 |
-| unidades-mar | cruiser | sprites | 1476 | 16 |
-| unidades-mar | destroyer | sprites | 1444 | 16 |
-| unidades-mar | fire-boat | sprites | 3988 | 16 |
-| unidades-mar | hovercraft | sprites | 4020 | 16 |
-| unidades-mar | pt-boat | sprites | 4200 | 16 |
-| unidades-mar | sub-dived | sprites | 1160 | 16 |
-| unidades-mar | submarine | sprites | 1112 | 16 |
-| unidades-mar | tanker | sprites | 1396 | 16 |
-| unidades-mar | transport | sprites | 1344 | 16 |
-| unidades-tierra | artillery | sprites | 2386 | 16 |
-| unidades-tierra | bulldozer | sprites | 1224 | 16 |
-| unidades-tierra | dca-truck | sprites | 4992 | 16 |
-| unidades-tierra | fire-engine | sprites | 2434 | 16 |
-| unidades-tierra | gas-truck | sprites | 1240 | 16 |
-| unidades-tierra | heavy-tank | sprites | 648 | 16 |
-| unidades-tierra | heavy-tank-torreta | sprites | 664 | 16 |
-| unidades-tierra | hv-artillery | sprites | 2498 | 16 |
-| unidades-tierra | jeep | sprites | 600 | 16 |
-| unidades-tierra | lite-tank | sprites | 2466 | 16 |
-| unidades-tierra | medium-tank | sprites | 616 | 16 |
-| unidades-tierra | medium-tank-torreta | sprites | 632 | 16 |
-| unidades-tierra | rocket-lnchr | sprites | 2546 | 16 |
-| unidades-tierra | super-tank | sprites | 2514 | 16 |
-| unidades-tierra | tank | sprites | 680 | 16 |
-| unidades-tierra | tank-torreta | sprites | 696 | 16 |
-| unidades-tierra | toxic-lnchr | sprites | 4832 | 16 |
-| unidades-tierra | truck | sprites | 1176 | 16 |
-| unidades-tierra | truck | sprites | 1192 | 16 |
+Fuente `exe` = PRE-IDENTIFICADO: el exe lo dibuja para ese dueño (`herramientas/sprites-exe.py` → `docs/sprites-exe.csv`);
+se confirma al integrarlo al juego. Sus archivos llevan el número de frame del banco.
+
+| categoría | nombre | banco | primer frame | frames | fuente |
+|---|---|---|---:|---:|---|
+| defensas | battery | sprites | 1412 | 16 | catálogo |
+| defensas | flak | sprites | 1428 | 16 | catálogo |
+| defensas | rocket-batry | sprites | 2354 | 16 | catálogo |
+| defensas | super-gun | sprites | 4216 | 16 | catálogo |
+| defensas | v1-ramp | sprites | 2402 | 16 | catálogo |
+| edificios | airfield | 0_irland | 104 | 2 | catálogo |
+| edificios | base-hq | 0_irland | 122 | 2 | catálogo |
+| edificios | bunker | 0_irland | 114 | 1 | catálogo |
+| edificios | factory | 0_irland | 92 | 2 | catálogo |
+| edificios | furnace | 0_irland | 94 | 2 | catálogo |
+| edificios | house | 0_irland | 90 | 2 | catálogo |
+| edificios | mine | 0_irland | 134 | 2 | catálogo |
+| edificios | platform | 0_irland | 132 | 2 | catálogo |
+| edificios | radarblock | 0_irland | 116 | 2 | catálogo |
+| edificios | refinery | 0_irland | 106 | 2 | catálogo |
+| edificios | rotonde | 0_irland | 118 | 2 | catálogo |
+| edificios | shipyard | 0_irland | 96 | 1 | catálogo |
+| edificios | techcenter | 0_irland | 120 | 2 | catálogo |
+| efectos | avion-portaaviones-1 | sprites | 1312 | 32 | catálogo |
+| efectos | avion-portaaviones-2 | sprites | 3452 | 32 | catálogo |
+| efectos | bandera | sprites | 2648 | 24 | catálogo |
+| efectos | bandera-obra | sprites | 2988 | 16 | catálogo |
+| efectos | barco-en-grada-07 | sprites | 481 | 3 | catálogo |
+| efectos | barco-en-grada-08 | sprites | 484 | 3 | catálogo |
+| efectos | barco-en-grada-09 | sprites | 487 | 3 | catálogo |
+| efectos | barco-en-grada-0a | sprites | 490 | 3 | catálogo |
+| efectos | barco-en-grada-0b | sprites | 493 | 3 | catálogo |
+| efectos | barco-en-grada-0c | sprites | 496 | 3 | catálogo |
+| efectos | barco-en-grada-0d | sprites | 499 | 3 | catálogo |
+| efectos | barco-en-grada-0e | sprites | 502 | 3 | catálogo |
+| efectos | barco-en-grada-0f | sprites | 505 | 3 | catálogo |
+| efectos | barco-en-grada-10 | sprites | 508 | 3 | catálogo |
+| efectos | barco-en-grada-11 | sprites | 511 | 3 | catálogo |
+| efectos | barco-en-grada-12 | sprites | 514 | 3 | catálogo |
+| efectos | barco-en-grada-13 | sprites | 517 | 3 | catálogo |
+| efectos | barco-en-grada-14 | sprites | 520 | 3 | catálogo |
+| efectos | columna-agua | sprites | 3428 | 24 | catálogo |
+| efectos | descarga-camion | sprites | 1216 | 7 | catálogo |
+| efectos | efecto-00 | sprites | 433 | 3 | catálogo |
+| efectos | efecto-01 | sprites | 4720 | 16 | catálogo |
+| efectos | efecto-15 | sprites | 2292 | 1 | catálogo |
+| efectos | efecto-16 | sprites | 2293 | 1 | catálogo |
+| efectos | efecto-17 | sprites | 2294 | 1 | catálogo |
+| efectos | efecto-18 | sprites | 2295 | 1 | catálogo |
+| efectos | efecto-19 | sprites | 2296 | 1 | catálogo |
+| efectos | efecto-1a | sprites | 2297 | 1 | catálogo |
+| efectos | efecto-1b | sprites | 2298 | 1 | catálogo |
+| efectos | efecto-1c | sprites | 2299 | 1 | catálogo |
+| efectos | efecto-1d | sprites | 2300 | 1 | catálogo |
+| efectos | efecto-1e | sprites | 2301 | 1 | catálogo |
+| efectos | efecto-1f | sprites | 2302 | 1 | catálogo |
+| efectos | efecto-20 | sprites | 2303 | 1 | catálogo |
+| efectos | efecto-21 | sprites | 2304 | 1 | catálogo |
+| efectos | efecto-22 | sprites | 2305 | 1 | catálogo |
+| efectos | efecto-27 | sprites | 216 | 24 | catálogo |
+| efectos | efecto-2a | sprites | 4880 | 16 | catálogo |
+| efectos | efecto-2b | sprites | 3956 | 32 | catálogo |
+| efectos | efecto-2c | sprites | 376 | 16 | catálogo |
+| efectos | efecto-33 | sprites | 2696 | 24 | catálogo |
+| efectos | efecto-34 | sprites | 2672 | 24 | catálogo |
+| efectos | efecto-35 | sprites | 2624 | 24 | catálogo |
+| efectos | efecto-36 | sprites | 2600 | 24 | catálogo |
+| efectos | efecto-4c | sprites | 432 | 1 | catálogo |
+| efectos | efecto-6e | sprites | 2956 | 8 | catálogo |
+| efectos | efecto-70 | sprites | 288 | 24 | catálogo |
+| efectos | efecto-72 | sprites | 3540 | 16 | catálogo |
+| efectos | efecto-73 | sprites | 3556 | 16 | catálogo |
+| efectos | efecto-74 | sprites | 3700 | 16 | catálogo |
+| efectos | efecto-77 | sprites | 3484 | 32 | catálogo |
+| efectos | efecto-7b | sprites | 3884 | 24 | catálogo |
+| efectos | efecto-7c | sprites | 3860 | 24 | catálogo |
+| efectos | efecto-7d | sprites | 555 | 16 | catálogo |
+| efectos | efecto-7e | sprites | 3388 | 16 | catálogo |
+| efectos | efecto-87 | sprites | 5760 | 3 | catálogo |
+| efectos | efecto-88 | sprites | 5764 | 3 | catálogo |
+| efectos | efecto-89 | sprites | 5763 | 1 | catálogo |
+| efectos | efecto-8a | sprites | 5767 | 1 | catálogo |
+| efectos | efecto-8b | sprites | 5768 | 3 | catálogo |
+| efectos | efecto-8c | sprites | 5772 | 3 | catálogo |
+| efectos | efecto-8d | sprites | 5771 | 1 | catálogo |
+| efectos | efecto-8e | sprites | 5775 | 1 | catálogo |
+| efectos | efecto-8f | sprites | 5776 | 3 | catálogo |
+| efectos | efecto-90 | sprites | 5780 | 3 | catálogo |
+| efectos | efecto-91 | sprites | 5779 | 1 | catálogo |
+| efectos | efecto-92 | sprites | 5783 | 1 | catálogo |
+| efectos | explosion | sprites | 256 | 32 | catálogo |
+| efectos | explosion-humo | sprites | 539 | 16 | catálogo |
+| efectos | explosion-muerte | sprites | 523 | 8 | catálogo |
+| efectos | explosion-muerte-2 | sprites | 368 | 8 | catálogo |
+| efectos | fuego-bosque-1 | sprites | 3716 | 16 | catálogo |
+| efectos | fuego-bosque-2 | sprites | 3732 | 16 | catálogo |
+| efectos | humareda-1 | sprites | 3748 | 32 | catálogo |
+| efectos | humareda-2 | sprites | 3780 | 32 | catálogo |
+| efectos | humareda-3 | sprites | 3812 | 32 | catálogo |
+| efectos | humo-a | sprites | 5024 | 32 | catálogo |
+| efectos | humo-b | sprites | 5056 | 32 | catálogo |
+| efectos | humo-c | sprites | 5088 | 32 | catálogo |
+| efectos | humo-rodaje | sprites | 3404 | 24 | catálogo |
+| efectos | llama | sprites | 2578 | 21 | catálogo |
+| efectos | llama-132 | sprites | 5136 | 16 | catálogo |
+| efectos | llama-133 | sprites | 5120 | 16 | catálogo |
+| efectos | llama-134 | sprites | 5152 | 16 | catálogo |
+| efectos | parte-aerodromo | sprites | 424 | 8 | catálogo |
+| efectos | parte-fabrica-1 | sprites | 1260 | 4 | catálogo |
+| efectos | parte-fabrica-2 | sprites | 2276 | 16 | catálogo |
+| efectos | parte-fundicion | sprites | 531 | 8 | catálogo |
+| efectos | parte-fundicion-2 | sprites | 2370 | 8 | catálogo |
+| efectos | parte-mina | sprites | 579 | 5 | catálogo |
+| efectos | parte-mina-2 | sprites | 571 | 8 | catálogo |
+| efectos | parte-radar | sprites | 4736 | 16 | catálogo |
+| efectos | parte-tech-center | sprites | 584 | 16 | catálogo |
+| efectos | planta-arde-1 | sprites | 2848 | 22 | catálogo |
+| efectos | planta-arde-2 | sprites | 2870 | 22 | catálogo |
+| efectos | plato-rotonda | sprites | 2418 | 16 | catálogo |
+| efectos | polvo | sprites | 2964 | 24 | catálogo |
+| sin-identificar | grua-5 | sprites | 2306 | 24 | catálogo |
+| sin-identificar | grua-6 | sprites | 2330 | 24 | catálogo |
+| sin-identificar | toxico | sprites | 2378 | 1 | catálogo |
+| unidades-aire | air-fighter | sprites | 1524 | 16 | catálogo |
+| unidades-aire | air-fortress | sprites | 1652 | 16 | catálogo |
+| unidades-aire | air-hvybombr | sprites | 1000 | 16 | catálogo |
+| unidades-aire | air-jetfight | sprites | 5328 | 16 | catálogo |
+| unidades-aire | air-kamikaze | sprites | 1780 | 16 | catálogo |
+| unidades-aire | air-navbombr | sprites | 2036 | 16 | catálogo |
+| unidades-aire | air-navfight | sprites | 744 | 16 | catálogo |
+| unidades-aire | air-plane | sprites | 2164 | 16 | catálogo |
+| unidades-aire | air-supfight | sprites | 1908 | 16 | catálogo |
+| unidades-aire | air-tacbombr | sprites | 872 | 16 | catálogo |
+| unidades-aire | fighter | sprites | 1620 | 16 | catálogo |
+| unidades-aire | fortress | sprites | 1748 | 16 | catálogo |
+| unidades-aire | heavy-bomber | sprites | 1096 | 16 | catálogo |
+| unidades-aire | jet-fighter | sprites | 5424 | 16 | catálogo |
+| unidades-aire | kamikaze | sprites | 1876 | 16 | catálogo |
+| unidades-aire | navy-bomber | sprites | 2132 | 16 | catálogo |
+| unidades-aire | navy-fighter | sprites | 840 | 16 | catálogo |
+| unidades-aire | plane | sprites | 2260 | 16 | catálogo |
+| unidades-aire | superfighter | sprites | 2004 | 16 | catálogo |
+| unidades-aire | tac-bomber | sprites | 968 | 16 | catálogo |
+| unidades-carga | h-bomb | sprites | 3844 | 16 | catálogo |
+| unidades-mar | battleship | sprites | 1264 | 16 | catálogo |
+| unidades-mar | carrier | sprites | 1296 | 16 | catálogo |
+| unidades-mar | cruiser | sprites | 1476 | 16 | catálogo |
+| unidades-mar | destroyer | sprites | 1444 | 16 | catálogo |
+| unidades-mar | fire-boat | sprites | 3988 | 16 | catálogo |
+| unidades-mar | hovercraft | sprites | 4020 | 16 | catálogo |
+| unidades-mar | pt-boat | sprites | 4200 | 16 | catálogo |
+| unidades-mar | sub-dived | sprites | 1160 | 16 | catálogo |
+| unidades-mar | submarine | sprites | 1112 | 16 | catálogo |
+| unidades-mar | tanker | sprites | 1396 | 16 | catálogo |
+| unidades-mar | transport | sprites | 1344 | 16 | catálogo |
+| unidades-tierra | artillery | sprites | 2386 | 16 | catálogo |
+| unidades-tierra | bulldozer | sprites | 1224 | 16 | catálogo |
+| unidades-tierra | dca-truck | sprites | 4992 | 16 | catálogo |
+| unidades-tierra | fire-engine | sprites | 2434 | 16 | catálogo |
+| unidades-tierra | gas-truck | sprites | 1240 | 16 | catálogo |
+| unidades-tierra | heavy-tank | sprites | 648 | 16 | catálogo |
+| unidades-tierra | heavy-tank-torreta | sprites | 664 | 16 | catálogo |
+| unidades-tierra | hv-artillery | sprites | 2498 | 16 | catálogo |
+| unidades-tierra | jeep | sprites | 600 | 16 | catálogo |
+| unidades-tierra | lite-tank | sprites | 2466 | 16 | catálogo |
+| unidades-tierra | medium-tank | sprites | 616 | 16 | catálogo |
+| unidades-tierra | medium-tank-torreta | sprites | 632 | 16 | catálogo |
+| unidades-tierra | rocket-lnchr | sprites | 2546 | 16 | catálogo |
+| unidades-tierra | super-tank | sprites | 2514 | 16 | catálogo |
+| unidades-tierra | tank | sprites | 680 | 16 | catálogo |
+| unidades-tierra | tank-torreta | sprites | 696 | 16 | catálogo |
+| unidades-tierra | toxic-lnchr | sprites | 4832 | 16 | catálogo |
+| unidades-tierra | truck | sprites | 1176 | 16 | catálogo |
+| unidades-tierra | truck | sprites | 1192 | 16 | catálogo |
+| defensas | compartido-extra-416cf2 | sprites | 4241 | 12 | exe |
+| defensas | compartido-extra-416eab | sprites | 4912 | 16 | exe |
+| defensas | rocket-batry-extra-416eab | sprites | 4896 | 16 | exe |
+| interfaz | interfaz-drawbuildingselection | sprites | 164 | 5 | exe |
+| interfaz | interfaz-drawmainselection | sprites | 2379 | 1 | exe |
+| interfaz | interfaz-drawsecondaryselection | sprites | 2380 | 1 | exe |
+| interfaz | interfaz-fun-004122d1 | sprites | 5796 | 2 | exe |
+| interfaz | interfaz-fun-00412d7e | sprites | 1 | 107 | exe |
+| interfaz | interfaz-fun-0042268c | sprites | 150 | 6 | exe |
+| interfaz | interfaz-fun-0043e7e2 | sprites | 392 | 1 | exe |
+| interfaz | interfaz-fun-0043ed57 | sprites | 184 | 1 | exe |
+| interfaz | interfaz-fun-0045789e | sprites | 437 | 1 | exe |
+| interfaz | interfaz-fun-00458af2 | sprites | 362 | 1 | exe |
+| interfaz | interfaz-fun-00478c67 | sprites | 367 | 1 | exe |
+| interfaz | interfaz-huddrawresourcepanel | sprites | 5823 | 2 | exe |
+| interfaz | interfaz-menudrawframe | sprites | 4232 | 8 | exe |
+| interfaz | interfaz-menudrawunitinsidecell | sprites | 107 | 3 | exe |
+| proyectiles | proyectil-0-5-ag-mac-gun | sprites | 328 | 16 | exe |
+| proyectiles | proyectil-1-5in-gun | sprites | 312 | 16 | exe |
+| proyectiles | proyectil-12in-navy-gun | sprites | 344 | 16 | exe |
+| proyectiles | proyectil-24in-artill-gun | sprites | 4640 | 80 | exe |
+| proyectiles | proyectil-25lb-bomb | sprites | 3908 | 16 | exe |
+| proyectiles | proyectil-4in-artill-gun | sprites | 5168 | 75 | exe |
+| proyectiles | proyectil-50lb-bomb | sprites | 436 | 1 | exe |
+| proyectiles | proyectil-5in-artill-gun | sprites | 5180 | 5 | exe |
+| proyectiles | proyectil-atomic-bomb | sprites | 3924 | 16 | exe |
+| proyectiles | proyectil-bombs | sprites | 0 | 1 | exe |
+| proyectiles | proyectil-bow-torpedo | sprites | 200 | 16 | exe |
+| proyectiles | proyectil-depth-charge | sprites | 439 | 1 | exe |
+| proyectiles | proyectil-fire-bomb | sprites | 5248 | 64 | exe |
+| proyectiles | proyectil-flying-bomb | sprites | 4240 | 372 | exe |
+| proyectiles | proyectil-rocket-gndgnd | sprites | 4928 | 64 | exe |
+| proyectiles | proyectil-toxic-missile | sprites | 4752 | 40 | exe |
+| unidades | compartido-extra-444bda | sprites | 4785 | 12 | exe |
+| unidades | compartido-extra-468450 | sprites | 2562 | 16 | exe |
+| unidades-aire | air-fighter-despegue | sprites | 1556 | 64 | exe |
+| unidades-aire | air-fighter-inclinado | sprites | 1508 | 32 | exe |
+| unidades-aire | air-fortress-despegue | sprites | 1684 | 112 | exe |
+| unidades-aire | air-fortress-extra-407f96 | sprites | 4089 | 12 | exe |
+| unidades-aire | air-fortress-inclinado | sprites | 1636 | 56 | exe |
+| unidades-aire | air-hvybombr-despegue | sprites | 1032 | 64 | exe |
+| unidades-aire | air-hvybombr-inclinado | sprites | 984 | 32 | exe |
+| unidades-aire | air-jetfight-despegue | sprites | 5360 | 64 | exe |
+| unidades-aire | air-jetfight-inclinado | sprites | 5312 | 32 | exe |
+| unidades-aire | air-jetfight-reactor | sprites | 5444 | 314 | exe |
+| unidades-aire | air-kamikaze-despegue | sprites | 1812 | 64 | exe |
+| unidades-aire | air-kamikaze-inclinado | sprites | 1764 | 32 | exe |
+| unidades-aire | air-navbombr-despegue | sprites | 2068 | 64 | exe |
+| unidades-aire | air-navbombr-inclinado | sprites | 2020 | 32 | exe |
+| unidades-aire | air-navfight-despegue | sprites | 776 | 64 | exe |
+| unidades-aire | air-navfight-inclinado | sprites | 728 | 32 | exe |
+| unidades-aire | air-plane-despegue | sprites | 2196 | 64 | exe |
+| unidades-aire | air-plane-inclinado | sprites | 2148 | 32 | exe |
+| unidades-aire | air-supfight-despegue | sprites | 1940 | 64 | exe |
+| unidades-aire | air-supfight-inclinado | sprites | 1892 | 32 | exe |
+| unidades-aire | air-tacbombr-despegue | sprites | 904 | 64 | exe |
+| unidades-aire | air-tacbombr-inclinado | sprites | 856 | 32 | exe |
+| unidades-aire | aviones-helice | sprites | 3004 | 320 | exe |
+| unidades-aire | aviones-helice-posado | sprites | 2720 | 128 | exe |
+| unidades-aire | fortress-extra-404cf2 | sprites | 4185 | 12 | exe |
+| unidades-carga | compartido-extra-444bda | sprites | 4272 | 20 | exe |
+| unidades-carga | h-bomb-extra-472bff | sprites | 3940 | 16 | exe |
+| unidades-mar | battleship-extra-468923 | sprites | 168 | 32 | exe |
+| unidades-mar | compartido-extra-467d42 | sprites | 408 | 24 | exe |
+| unidades-mar | cruiser-extra-468450 | sprites | 1492 | 16 | exe |
+| unidades-mar | destroyer-extra-467d42 | sprites | 1460 | 16 | exe |
+| unidades-mar | fire-boat-torreta | sprites | 4004 | 16 | exe |
+| unidades-mar | submarine-inmersion | sprites | 1128 | 32 | exe |
+| unidades-tierra | compartido-lanzador | sprites | 4753 | 24 | exe |
+| unidades-tierra | dca-truck-extra-47360e | sprites | 5008 | 16 | exe |
+| unidades-tierra | fire-engine-torreta | sprites | 2450 | 16 | exe |
+| unidades-tierra | lite-tank-torreta | sprites | 2482 | 16 | exe |
+| unidades-tierra | super-tank-torreta | sprites | 2530 | 16 | exe |
+| unidades-tierra | tank-torreta | sprites | 712 | 16 | exe |
+| unidades-tierra | toxic-lnchr-lanzador | sprites | 4848 | 32 | exe |
+| unidades-tierra | truck-descarga | sprites | 1208 | 9 | exe |
